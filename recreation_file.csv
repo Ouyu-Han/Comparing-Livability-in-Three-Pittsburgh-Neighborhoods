@@ -1,0 +1,966 @@
+Heading,Address,Zipcode,Category
+Indiana County Tourist Bureau,"Indiana Mall, 2334 Oakland Ave.
+Indiana, Pennsylvania 15701",15701.0,cultural
+ASCEND Climbing,"2141 Mary St.
+Pittsburgh, Pennsylvania 15203",15203.0,fitness
+Kayak Pittsburgh,"317 East Carson St., Ste.160
+Pittsburgh, Pennsylvania 15219",15219.0,fitness
+FA Climbing & Fitness,"195 W. Station Square Dr.
+Pittsburgh, Pennsylvania 15219",15219.0,fitness
+Bike Pittsburgh,"188 43rd St., #1
+Pittsburgh, Pennsylvania 15201",15201.0,fitness
+GO Laurel Highlands,"113 East Main St.
+Ligonier, Pennsylvania 15658",15658.0,outdoor
+The Clemente Museum,"3339 Penn Ave.
+Pittsburgh, Pennsylvania 15201",15201.0,cultural
+Edgewood Country Club,"100 Churchill Rd
+Pittsburgh, Pennsylvania 15235",15235.0,outdoor
+Laurel Highlands River Tours,"PO Box 107
+4 Sherman St.
+Ohiopyle, Pennsylvania 15470",15470.0,outdoor
+Great Allegheny Passage,"25045 Three Rivers Heritage Trail
+Pittsburgh, Pennsylvania 15219",15219.0,fitness
+Allegheny Land Trust/Dead Man's Hollow,"416 Thorn St.
+Sewickley, Pennsylvania 15143",15143.0,outdoor
+Amped Airsoft Arena,"2250 Noblestown Rd.
+Pittsburgh, Pennsylvania 15205",15205.0,entertainment
+Allegheny County Parks Department,"542 Forbes Ave., Room 211
+Pittsburgh, Pennsylvania 15219",15219.0,outdoor
+Bike the Burgh Tours,"1049 Penn Ave.
+Pittsburgh, Pennsylvania 15222",15222.0,fitness
+Golden Triangle Bike,"600 1st Ave.
+Pittsburgh, Pennsylvania 15219",15219.0,fitness
+"Experience Armstrong, Inc.","125 Market St.
+Kittanning, Pennsylvania 16201",16201.0,cultural
+Discover Ohiopyle,"3045 National Pike
+Farmington, Pennsylvania 15437",15437.0,outdoor
+Greene County Tourist Promotion Agency,"19 S. Washington St., Fort Jackson Bldg.
+Waynesburg, Pennsylvania 15370",15370.0,outdoor
+Iron City Boulders,"143 51st St.
+Pittsburgh, Pennsylvania 15201",15201.0,fitness
+Butler County Tourism & Convention Bureau,"310 E. Grandview Ave.
+Zelienople, Pennsylvania 16063",16063.0,cultural
+Bear Run Campground & Cabins,"184 Badger Hill Rd.
+Portersville, Pennsylvania 16051",16051.0,outdoor
+Beaver County Tourism,"121 Brady's Run Rd., Brady's Run Park Recreation Facility
+Beaver Falls, Pennsylvania 15010",15010.0,cultural
+Five Iron Golf,"2 PPG Place, Ste. 90
+Pittsburgh, Pennsylvania 15222",15222.0,ball field
+Paradise Island Bowl & Beach,"7601 Grand Ave.
+Pittsburgh, Pennsylvania 15225",15225.0,entertainment
+Segway Pittsburgh,"228 W. Station Square Dr.
+Pittsburgh, Pennsylvania 15219",15219.0,cultural
+PPG Paints Arena,"1001 Fifth Ave.
+Pittsburgh, Pennsylvania 15219",15219.0,fitness
+Steeltown Event Park,"2 Willow Ave
+Oakdale, Pennsylvania 15071",15071.0,outdoor
+Seven Springs Mountain Resort,"777 Waterwheel Dr.
+Seven Springs, Pennsylvania 15622",15622.0,outdoor
+Nemacolin,"1001 Lafayette Dr.
+Farmington, Pennsylvania 15437",15437.0,outdoor
+Steelers Hall of Honor Museum,"100 Art Rooney Ave., Gate B
+Pittsburgh, Pennsylvania 15212",15212.0,cultural
+OnPar Now,"1669 Smallman St.
+Pittsburgh, Pennsylvania 15222",15222.0,fitness
+Pittsburgh Riverhounds SC,"510 W. Station Square Dr.
+Pittsburgh, Pennsylvania 15219",15219.0,fitness
+Puttery Pittsburgh,"1415 Smallman St.
+Pittsburgh, Pennsylvania 15222",15222.0,fitness
+Steel City Jet Ski Rentals,"151 19th St.
+Sharpsburg, Pennsylvania 15215",15215.0,entertainment
+Pittsburgh International Race Complex,"201 Penndale Rd.
+Wampum, Pennsylvania 16157",16157.0,entertainment
+Quicksilver Golf Club,"PO Box 595, 2000 Quicksilver Rd.
+Midway, Pennsylvania 15060",15060.0,ball field
+Printscape Arena,"114 Southpointe Blvd.
+Canonsburg, Pennsylvania 15317",15317.0,fitness
+Olde Stonewall Golf Club,"1495 Mercer Rd.
+Ellwood City, Pennsylvania 16117",16117.0,ball field
+Pittsburgh Steelers,"100 Art Rooney Ave., Acrisure Stadium
+Pittsburgh, Pennsylvania 15212",15212.0,fitness
+Pittsburgh Paintball Park,"1403 Idlewood Rd.
+Pittsburgh, Pennsylvania 15205",15205.0,entertainment
+Rose Point Park - Cabins & Camping,"8775 Old US 422
+New Castle, Pennsylvania 16101",16101.0,outdoor
+Montour Trail,"304 Hickman St., Ste. 3
+Bridgeville, Pennsylvania 15017",15017.0,fitness
+POGOH Bikeshare,"3328 Penn Ave.
+Pittsburgh, Pennsylvania 15201",15201.0,fitness
+Pittsburgh Pirates at PNC Park,"115 Federal St., PNC Park at the North Shore
+Pittsburgh, Pennsylvania 15212",15212.0,fitness
+Pittsburgh Penguins,"1001 Fifth Ave., PPG Paints Arena
+Pittsburgh, Pennsylvania 15219",15219.0,fitness
+Three Rivers Rowing Association,"300 Waterfront Dr.
+Pittsburgh, Pennsylvania 15222",15222.0,entertainment
+Visit Lawrence County,"229 S. Jefferson St., Ste. 101
+New Castle, Pennsylvania 16101",16101.0,cultural
+White Water Adventurers Inc.,"PO Box 31, 6 Negley St.
+Ohiopyle, Pennsylvania 15470",15470.0,outdoor
+University of Pittsburgh Athletic Department,"3719 Terrace St.
+Pittsburgh, Pennsylvania 15261",15261.0,fitness
+Topgolf,"400 Presto-Sygan Rd.
+Bridgeville, Pennsylvania 15017",15017.0,ball field
+VisitMercerCountyPA,"50 North Water Ave.
+Sharon, Pennsylvania 16146",16146.0,cultural
+Walk The Burgh Tours,"1049 Penn Ave.
+Pittsburgh, Pennsylvania 15222",15222.0,outdoor
+Washington County Tourism Promotion Agency,"1000 Horizon Vue Dr., Ste. 1C80
+Canonsburg, Pennsylvania 15317",15317.0,cultural
+Yogi Bear's Jellystone Park at Kozy Rest,"449 Campground Rd.
+Harrisville, Pennsylvania 16038",16038.0,outdoor
+Basketball Courts,Boyce Park,15239.0,ball field
+Tennis Courts,Boyce Park,15239.0,ball field
+Off Leash Dog Park 2,Boyce Park,15239.0,dog park
+Off Leash Dog Park 1,Boyce Park,15239.0,dog park
+New Texas Baseball Field,Boyce Park,15239.0,ball field
+Commissioners Field,Boyce Park,15239.0,ball field
+Soccer Field 3,Boyce Park,15239.0,ball field
+Wave Pool,Boyce Park,15239.0,fitness
+Soccer Field 2,Harrison Hills Park,15065.0,ball field
+Cabin,North Park,15101.0,camping
+Basketball Courts,North Park,15101.0,ball field
+Dek Hockey Rink,North Park,15101.0,fitness
+Devils Elbow Baseball Field,North Park,15101.0,ball field
+Donora Baseball Field,North Park,15101.0,ball field
+Lone Pine Baseball Field,North Park,15101.0,ball field
+Mill Baseball Field,North Park,15101.0,ball field
+Pie Traynor Baseball Field,North Park,15101.0,ball field
+Woods Baseball Field 1,North Park,15101.0,ball field
+Woods Baseball Field 2,North Park,15101.0,ball field
+J.C. Stone Field,North Park,15101.0,ball field
+Mckinney Soccer Field 1,North Park,15101.0,ball field
+Mckinney Soccer Field 2,North Park,15101.0,ball field
+Pie Traynor Soccer Field,North Park,15101.0,ball field
+Schwartz Soccer Field 1,North Park,15101.0,ball field
+Schwartz Soccer Field 2,North Park,15101.0,ball field
+Woods Soccer Field,North Park,15101.0,ball field
+Yoest Soccer Field 1,North Park,15101.0,ball field
+Yoest Soccer Field 2,North Park,15101.0,ball field
+Ice Skating Rink - 2nd Floor,North Park,15101.0,fitness
+Ice Skating Rink - Rink,North Park,15101.0,fitness
+North Park Pool,North Park,15101.0,fitness
+Soccer Field,Round Hill Park,15037.0,ball field
+Dek Hockey Rink,Settler's Cabin Park,15205.0,fitness
+Wave Pool,Settler's Cabin Park,15205.0,fitness
+Dog Park,Settler's Cabin Park,15205.0,dog park
+Buffalo Inn,South Park,15129.0,entertainment
+South Park Community House,South Park,15129.0,entertainment
+Basketball Courts,South Park,15129.0,ball field
+Dek Hockey Rink,South Park,15129.0,fitness
+100 Acre Field,South Park,15129.0,ball field
+Alaska Baseball Field,South Park,15129.0,ball field
+Black Ash Baseball Field,South Park,15129.0,ball field
+Edgebrook Field,South Park,15129.0,ball field
+Fairgrounds Ball Field 2,South Park,15129.0,ball field
+Fairgrounds Ball Field 3,South Park,15129.0,ball field
+Texas Softball Field,South Park,15129.0,ball field
+Fairgrounds Ball Field 1,South Park,15129.0,ball field
+Flag Retirement Plaza,South Park,15129.0,entertainment
+Gazebo,South Park,15129.0,outdoor
+Horse Show Ring,South Park,15129.0,entertainment
+Ice Skating Rink,South Park,15129.0,fitness
+Wave Pool - Pool,South Park,15129.0,fitness
+All Purpose Field,White Oak Park,15131.0,ball field
+Lakeview Baseball Field,North Park,15101.0,ball field
+Senior Citizens Softball Complex 1,North Park,15101.0,fitness
+Senior Citizens Softball Complex 2,North Park,15101.0,fitness
+BMX Track,South Park,15129.0,fitness
+Ski Slopes,Boyce Park,15239.0,fitness
+Archery Range,Boyce Park,15239.0,fitness
+Remote Control Airplane Field,Boyce Park,15239.0,ball field
+Off-Leash Dog Park,South Park,15129.0,dog park
+Upper Horse Ring,Hartwood Acres Park,15238.0,entertainment
+Lower Horse Ring,Hartwood Acres Park,15238.0,entertainment
+Practice Horse Ring,Hartwood Acres Park,15238.0,entertainment
+Remote Control Airplane Field,South Park,15129.0,ball field
+Practice Horse Show Ring,North Park,15101.0,entertainment
+Skate Park,Boyce Park,15239.0,fitness
+Horse Show Area,Hartwood Acres Park,15238.0,entertainment
+Off-Leash Dog Park,Hartwood Acres Park,15238.0,dog park
+Off-Leash Dog Park,White Oak Park,15131.0,dog park
+Off-Leash Dog Park,North Park,15101.0,dog park
+Chestnut Volleyball Court,White Oak Park,15131.0,ball field
+Boating Area,North Park,15101.0,fitness
+Water Spray Park,Deer Lakes Park,15084.0,outdoor
+Bocce Ball Court,White Oak Park,15131.0,ball field
+Cedar VolleyBall Court,White Oak Park,15131.0,ball field
+Magnoila Volleyball Court,White Oak Park,15131.0,ball field
+Tulip Tree Volleyball Court,White Oak Park,15131.0,ball field
+Sumac Horseshoe Court,White Oak Park,15131.0,ball field
+Tulip Tree Horseshoe Courts,White Oak Park,15131.0,ball field
+Blue Spruce Horseshoe Court,White Oak Park,15131.0,ball field
+Beech Horseshoe Court,White Oak Park,15131.0,ball field
+Off-Leash Dog Park,North Park,15101.0,dog park
+Carp Field,Deer Lakes Park,15084.0,ball field
+Scout Campsite,Deer Lakes Park,15084.0,outdoor
+Scout Campsite,Harrison Hills Park,15065.0,outdoor
+Wave Pool,South Park,15129.0,fitness
+Tennis Courts,South Park,15129.0,ball field
+Tennis Courts,Settler's Cabin Park,15205.0,ball field
+Dogwood Volleyball Court,White Oak Park,15131.0,ball field
+Sumac Volleyball Court,White Oak Park,15131.0,ball field
+Playground,Harrison Hills Park,15065.0,Playground
+Playground,Harrison Hills Park,15065.0,Playground
+Playground,Harrison Hills Park,15065.0,Playground
+Playground,Deer Lakes Park,15084.0,Playground
+Playground,Deer Lakes Park,15084.0,Playground
+Playground,North Park,15101.0,Playground
+Playground,North Park,15101.0,Playground
+Playground,North Park,15101.0,Playground
+Playground,North Park,15101.0,Playground
+Playground,North Park,15101.0,Playground
+Playground,North Park,15101.0,Playground
+Playground,North Park,15101.0,Playground
+Playground,North Park,15101.0,Playground
+Playground,North Park,15101.0,Playground
+Playground,North Park,15101.0,Playground
+Playground,North Park,15101.0,Playground
+Playground,North Park,15101.0,Playground
+Playground,Settler's Cabin Park,15205.0,Playground
+Playground,Settler's Cabin Park,15205.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,Round Hill Park,15037.0,Playground
+Playground,White Oak Park,15131.0,Playground
+Playground,White Oak Park,15131.0,Playground
+O'Block Playground,Boyce Park,15239.0,Playground
+Playground,Boyce Park,15239.0,Playground
+Soccer Field 3,Harrison Hills Park,15065.0,ball field
+Soccer Field 1,Harrison Hills Park,15065.0,ball field
+Tennis Courts,North Park,15101.0,ball field
+Platform Tennis Courts,North Park,15101.0,ball field
+Fishing Platform,Deer Lakes Park,15084.0,fitness
+Fishing Platform,Deer Lakes Park,15084.0,fitness
+Workout Station,Deer Lakes Park,15084.0,fitness
+Fishing Platform,Deer Lakes Park,15084.0,fitness
+Workout Station,Deer Lakes Park,15084.0,fitness
+Workout Station,Deer Lakes Park,15084.0,fitness
+Skate Park,South Park,15129.0,outdoor
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Bocce Ball Courts,South Park,15129.0,ball field
+Stevens Horseshoe Courts,South Park,15129.0,ball field
+Children閳ユ獨 Playground,South Park,15129.0,Playground
+Off-Leash Dog Park,South Park,15129.0,dog park
+Pickleball Courts,South Park,15129.0,ball field
+Black Ash Volleyball Courts,South Park,15129.0,ball field
+Splash Park,Round Hill Park,15037.0,outdoor
+Chestnut Horseshoe Courts,White Oak Park,15131.0,ball field
+Fishing Platform,North Park,15101.0,fitness
+Fishing Platform,Deer Lakes Park,15084.0,fitness
+Soccer Field 1,Boyce Park,15239.0,ball field
+Soccer Field 2,Boyce Park,15239.0,ball field
+Archery Range,North Park,15101.0,fitness
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,South Park,15129.0,Playground
+Playground,North Park,15101.0,Playground
+Silver Beaver Baseball Field,Boyce Park,15239.0,ball field
+Playground,South Park,15129.0,Playground
+Pickleball Courts,North Park,15101.0,ball field
+Basketball Courts,Settler's Cabin Park,15205.0,ball field
+Horse Show Ring,South Park,15129.0,entertainment
+Dog Park,Harrison Hills Park,15065.0,dog park
+Frick Park,,15217.0,outdoor
+Highland Park,,15206.0,outdoor
+Schenley park,,15213.0,outdoor
+Emerald View Park,,15211.0,outdoor
+Riverview Park,,15214.0,outdoor
+Allegheny commons Park,,15212.0,outdoor
+Arsenal Park,,15201.0,outdoor
+August Wilson Park,,15219.0,outdoor
+Market Square,,15222.0,outdoor
+McKinley Park,,15210.0,outdoor
+Mellon Park,,15232.0,outdoor
+Mellon Square,,15222.0,outdoor
+Sheradon Park,,15204.0,outdoor
+South Side Pakr,,15210.0,outdoor
+West End Overlook,,15205.0,outdoor
+Allegheny Landing Park,,15212.0,outdoor
+North Shore Riverfront Park,,15212.0,outdoor
+Point State Park,,15222.0,outdoor
+South Shore Riverfront Park,,15203.0,outdoor
+Three Rivers Heritage Trail,,15203.0,outdoor
+Avalon Fuel,,15202.0,Convenience Store
+Ez Energy #303/7Eleven #36183H,,15143.0,Convenience Store
+EZ Energy #311 / 7 Eleven #36191H,,15202.0,Convenience Store
+Getgo #3646 / Crafton - Ingram,,15205.0,Convenience Store
+Mt NeBlvd Texaco,,15143.0,Convenience Store
+Radokovic Marathon,,15137.0,Convenience Store
+Sunoco #7544,,15231.0,Convenience Store
+Sunoco A Plus Mini Market #8154,,15207.0,Convenience Store
+Plow & Hearth,,15205.0,Convenience Store
+S & R Market,,15207.0,Convenience Store
+EZ Energy #307 / 7 Eleven #36187H,,15101.0,Convenience Store
+Mega Deli,,15112.0,Convenience Store
+Sheetz #500,,15143.0,Convenience Store
+7 Eleven #35968H,,15229.0,Convenience Store
+7 Eleven #36143A,,15222.0,Convenience Store
+A & E Deli Food Mart,,15210.0,Convenience Store
+Al's Market,,15104.0,Convenience Store
+Alstan Mini Mart,,15146.0,Convenience Store
+American Joe's,,15132.0,Convenience Store
+American Natural,,15219.0,Convenience Store
+Avalon Mart,,15202.0,Convenience Store
+AW Food Express / Sunoco,,15024.0,Convenience Store
+Bett's Market,,15208.0,Convenience Store
+Cash & Carry,,15237.0,Convenience Store
+Cash & Carry Convenience Store,,15239.0,Convenience Store
+Clairton Mini Mart,,15025.0,Convenience Store
+Clairton Mini-Mart,,15025.0,Convenience Store
+Co Go's #1780,,15120.0,Convenience Store
+Co Go's #346,,15120.0,Convenience Store
+Co Go's #805,,15217.0,Convenience Store
+Co Go's #820,,15129.0,Convenience Store
+CR Petroleum,,15014.0,Convenience Store
+De Carlo Fruit Market,,15037.0,Convenience Store
+Edgewood Avenue Express,,15218.0,Convenience Store
+Edna's Market & Deli @ Northview Heights,,15214.0,Convenience Store
+Everest Food,,15236.0,Convenience Store
+Express Mini Mart,,15227.0,Convenience Store
+Fa's Market,,15104.0,Convenience Store
+Fuel On # 25,,15232.0,Convenience Store
+Fueland,,15108.0,Convenience Store
+Fueland #220,,15145.0,Convenience Store
+GetGo #3108,,15235.0,Convenience Store
+GetGo #3109,,15035.0,Convenience Store
+Glassmere Food Mart #252,,15144.0,Convenience Store
+Homestead Food Mart,,15120.0,Convenience Store
+Honey Bear / Spee-D Mart,,15034.0,Convenience Store
+International Food Emporium,,15227.0,Convenience Store
+Janoski's Farm Market,,15026.0,Convenience Store
+Jeets Sunoco,,15229.0,Convenience Store
+Jimit Sunoco,,15131.0,Convenience Store
+Jodha Exxon,,15237.0,Convenience Store
+Kolos International Food,,15106.0,Convenience Store
+Kwik E Mart,,15222.0,Convenience Store
+Large Sunoco,,15025.0,Convenience Store
+Marathon McKeesport,,15132.0,Convenience Store
+Maruti Convience,,15131.0,Convenience Store
+Mary's & Rick's,,15106.0,Convenience Store
+Murray's Exxon,,15221.0,Convenience Store
+NeighBlvdrhood Dollar,,15132.0,Convenience Store
+New Eagle Mart,,15222.0,Convenience Store
+Noble Mart,,15218.0,Convenience Store
+Oak Hill Market,,15219.0,Convenience Store
+One Stop Mini Mart,,15217.0,Convenience Store
+Phil's Citgo,,15229.0,Convenience Store
+Pitt Stop Express,,15241.0,Convenience Store
+Pittsburgh Asian Market / Ou's International Co,,15221.0,Convenience Store
+Quicky Mart,,15228.0,Convenience Store
+RN Market,,15206.0,Convenience Store
+Rte #286 Exxon,,15239.0,Convenience Store
+Safi Market,,15120.0,Convenience Store
+SAI Sunoco,,15065.0,Convenience Store
+Sam Blvdk Korean Grocery,,15222.0,Convenience Store
+Sheetz #582,,15146.0,Convenience Store
+Shell North Versailles,,15137.0,Convenience Store
+Sheraden Mini Mart,,15204.0,Convenience Store
+Shop N Go,,15088.0,Convenience Store
+Speedway #2917,,15146.0,Convenience Store
+Stop n Shop,,15147.0,Convenience Store
+Sunoco,,15132.0,Convenience Store
+Sunoco #7139,,15223.0,Convenience Store
+Sunoco #7362,,16046.0,Convenience Store
+Sunoco #7430,,15205.0,Convenience Store
+Sunoco A Plus Mini Market,,15206.0,Convenience Store
+Sushi with Gusto,,15228.0,Convenience Store
+Sweet Peas Convenience Store,,15234.0,Convenience Store
+T-Blvdnes BP #02706,,15090.0,Convenience Store
+The Hot Spot,,15045.0,Convenience Store
+Uni-Mart,,15132.0,Convenience Store
+Uni-Mart #4682,,15025.0,Convenience Store
+Uni-Mart #94608,,15133.0,Convenience Store
+Victoria's Dairy,,15212.0,Convenience Store
+Z Corner Store,,15084.0,Convenience Store
+7 Eleven #36139A,,15234.0,Convenience Store
+7 Eleven #36154H,,15226.0,Convenience Store
+7 Eleven #36155,,15110.0,Convenience Store
+B & Z Deli,,15116.0,Convenience Store
+CVS / Pharmacy #258,,15136.0,Convenience Store
+EZ Energy #306 / 7 Eleven #36186H,,15101.0,Convenience Store
+EZ Energy #312 / 7 Eleven Store #36192H,,15236.0,Convenience Store
+Family Dollar #4675,,15110.0,Convenience Store
+Fast Grab & Go,,15071.0,Convenience Store
+Getgo #3280,,15116.0,Convenience Store
+Oakdale Mini Mart,,15071.0,Convenience Store
+Save N Go,,15044.0,Convenience Store
+Sheetz #123,,15044.0,Convenience Store
+Speedway #2903,,15205.0,Convenience Store
+TJ's Deli Mart #2,,15136.0,Convenience Store
+Tonidale Marathon,,15071.0,Convenience Store
+Uni-Mart,,15108.0,Convenience Store
+EZ Energy #357 / 7 Eleven #36201H,,15090.0,Convenience Store
+$1 & Up,,15226.0,Convenience Store
+1 Stop Amish Deli & Gifts,,15137.0,Convenience Store
+3 D's Tobacco,,15213.0,Convenience Store
+5 GB's Fresh Foods,,15136.0,Convenience Store
+52nd Street Market,,15201.0,Convenience Store
+7 Eleven #106 36118A,,15219.0,Convenience Store
+7 Eleven #167,,15222.0,Convenience Store
+7 Eleven #2701-36160J,,15222.0,Convenience Store
+7 Eleven #36117H,,15237.0,Convenience Store
+7 Eleven #36121A,,15145.0,Convenience Store
+7 Eleven #36122A,,15223.0,Convenience Store
+7 Eleven #36123,,15225.0,Convenience Store
+7 Eleven #36126A,,15220.0,Convenience Store
+7 Eleven #36127A,,15136.0,Convenience Store
+7 Eleven #36128,,15236.0,Convenience Store
+7 Eleven #36134,,15213.0,Convenience Store
+7 Eleven #36135,,15017.0,Convenience Store
+7 Eleven #36138H,,15237.0,Convenience Store
+7 Eleven #36140A,,15233.0,Convenience Store
+7 Eleven #36144A,,15086.0,Convenience Store
+7 Eleven #36146A,,15222.0,Convenience Store
+7 Eleven #36152A,,15088.0,Convenience Store
+7 Eleven #36159A,,15044.0,Convenience Store
+7 Eleven #36193A,,15220.0,Convenience Store
+7 Eleven Store #36131-A,,15205.0,Convenience Store
+7-Eleven #36124,,15227.0,Convenience Store
+A & K Convenience Store,,15213.0,Convenience Store
+A & M Market,,15221.0,Convenience Store
+Abby's,,15219.0,Convenience Store
+Abe's Market,,15219.0,Convenience Store
+Aden Market,,15212.0,Convenience Store
+Ak Schwartz Super Market,,15219.0,Convenience Store
+Alfreds Deli & Market,,15219.0,Convenience Store
+Allegheny City Market,,15212.0,Convenience Store
+Allison Park Mini Market,,15101.0,Convenience Store
+American Natural #12,,15120.0,Convenience Store
+American Natural #14,,15143.0,Convenience Store
+American Natural #2,,15206.0,Convenience Store
+American Natural #5,,15132.0,Convenience Store
+American Natural #9,,15135.0,Convenience Store
+Anlauf's Sunoco,,15235.0,Convenience Store
+Ann's Market,,15219.0,Convenience Store
+Anytime Market,,15136.0,Convenience Store
+Arnold's Market,,15229.0,Convenience Store
+Arrowhead Snack Bar,,15037.0,Convenience Store
+Azhar's Sunoco,,15235.0,Convenience Store
+Bailie Food Mart,,15132.0,Convenience Store
+Bakers Dairy,,15208.0,Convenience Store
+Bay Valley Foods Bldg #230 - Co. Store,,15212.0,Convenience Store
+Beccari Farm Market,,15071.0,Convenience Store
+Bell's Market,,15104.0,Convenience Store
+Ben Avon Mini Mart,,15202.0,Convenience Store
+Bhangal Mcknight,,15237.0,Convenience Store
+Big Daddy's,,15219.0,Convenience Store
+Bizi Mart,,15203.0,Convenience Store
+Blue Eagle Market,,15136.0,Convenience Store
+Blvdb's Exxon,,15065.0,Convenience Store
+BP / Bloomfield,,15224.0,Convenience Store
+BP Connect,,15136.0,Convenience Store
+BP Fueland #228,,15210.0,Convenience Store
+BP Gas Station,,15209.0,Convenience Store
+BP Gas Station #36182,,15238.0,Convenience Store
+BP Oil,,15132.0,Convenience Store
+BP Oil #07414,,15214.0,Convenience Store
+BP Oil #67315,,15216.0,Convenience Store
+BP South Braddock,,15218.0,Convenience Store
+BP Stop & Go,,15145.0,Convenience Store
+BP/ BFS Foods #64,,15146.0,Convenience Store
+BP/ Fueland #216,,15221.0,Convenience Store
+Broadway Dairy Mart,,15136.0,Convenience Store
+Broadway Market,,15136.0,Convenience Store
+Bryant Street Market,,15206.0,Convenience Store
+C & C News & Snax,,15222.0,Convenience Store
+CeeBee Market,,15210.0,Convenience Store
+Center Point Convenience,,15214.0,Convenience Store
+Cheneh A - Plus Mini Mart,,15201.0,Convenience Store
+Christy's Market,,15215.0,Convenience Store
+Chuong's Market,,15210.0,Convenience Store
+CIO Stores #14,,15241.0,Convenience Store
+Circle K #4200,,15212.0,Convenience Store
+Circle K #4201,,15215.0,Convenience Store
+Circle K #4202,,15201.0,Convenience Store
+Circle K #4235,,15071.0,Convenience Store
+City News & Arcade,,15222.0,Convenience Store
+Co Go #1808,,15226.0,Convenience Store
+Co Go's #1817,,15227.0,Convenience Store
+Co Go's #321,,15102.0,Convenience Store
+Co Go's #322,,15017.0,Convenience Store
+Co Go's #329,,15221.0,Convenience Store
+Co Go's #338,,15227.0,Convenience Store
+Co Go's #496,,15136.0,Convenience Store
+Co Go's #777,,15211.0,Convenience Store
+Co Go's #786,,15218.0,Convenience Store
+Co Go's #801,,15210.0,Convenience Store
+Co Go's #811,,15037.0,Convenience Store
+Co Go's #812,,15215.0,Convenience Store
+Co Go's #813,,15203.0,Convenience Store
+Co Go's #814,,15211.0,Convenience Store
+Co Go's #821,,15131.0,Convenience Store
+Cochran A-Plus Sunoco #60568,,15220.0,Convenience Store
+CoGo's #1493,,15202.0,Convenience Store
+CoGo's #1784,,15216.0,Convenience Store
+ComBlvd Mini Mart,,15207.0,Convenience Store
+Comet News,,15104.0,Convenience Store
+Coraopolis Fast Stop,,15108.0,Convenience Store
+Craft A-Plus,,15213.0,Convenience Store
+Croskey's Sunoco,,15238.0,Convenience Store
+Crossroads Service Center,,15122.0,Convenience Store
+Curry Hollow Sunoco,,15236.0,Convenience Store
+CVS / Pharmacy #10034,,15237.0,Convenience Store
+Daily Mart,,15203.0,Convenience Store
+Dar's General Store,,15136.0,Convenience Store
+Deurali Bazar Inc,,15210.0,Convenience Store
+DiLeo's Deli,,15014.0,Convenience Store
+Dipen Ent Inc / Marathon,,15234.0,Convenience Store
+DJ's Butcher Block,,15224.0,Convenience Store
+Dollar General #15784,,15129.0,Convenience Store
+Dollar Tree #00236,,15237.0,Convenience Store
+Dollar Tree #05038,,15237.0,Convenience Store
+Dollar Tree #06413,,15146.0,Convenience Store
+Dollar Tree #1272,,15108.0,Convenience Store
+Dollar Tree #4222,,15084.0,Convenience Store
+Dollar Tree #4287,,15205.0,Convenience Store
+Double Car Wash,,15131.0,Convenience Store
+DuBlvdis B P II,,15122.0,Convenience Store
+DuBlvdis BP,,15203.0,Convenience Store
+East Park News,,15212.0,Convenience Store
+Eddies Snacks & Smokes,,15219.0,Convenience Store
+Eden's Market,,15228.0,Convenience Store
+Eiben Services,,15227.0,Convenience Store
+Elizabeth BP,,15037.0,Convenience Store
+Els Convenience Stop,,15221.0,Convenience Store
+Ethnic Foods,,15217.0,Convenience Store
+Etna Express,,15223.0,Convenience Store
+Express Mini Mart @ BP Fueland,,15237.0,Convenience Store
+Express Uni-Mart,,15236.0,Convenience Store
+Exxon Cheswick,,15024.0,Convenience Store
+EZ Energy #305 / 7 Eleven #36185H,,15205.0,Convenience Store
+EZ Energy #308 / 7 Eleven #36188H,,15237.0,Convenience Store
+EZ Energy #309 / 7 Eleven Store #36189H,,15102.0,Convenience Store
+EZ Energy #315 / 7 Eleven #36195H,,15136.0,Convenience Store
+EZ Energy #354 / 7 Eleven #36199H,,15237.0,Convenience Store
+EZ Energy #361 / 7 Eleven #36205H,,15147.0,Convenience Store
+Family Dollar #7199,,15213.0,Convenience Store
+Fast Eddie's Food-N-Fuel / G-Man Pizza & Deli,,15026.0,Convenience Store
+Fast Stop,,15108.0,Convenience Store
+Forbes Ave Market,,15219.0,Convenience Store
+Fourth St Market,,15104.0,Convenience Store
+Frankstown Shell,,15208.0,Convenience Store
+Fratangelo Garden,,15108.0,Convenience Store
+Frick Park Market,,15208.0,Convenience Store
+Friend's Shell Food Shop,,15206.0,Convenience Store
+Fueland,,15136.0,Convenience Store
+Fueland #1,,15120.0,Convenience Store
+Fulland Green Tree,,15205.0,Convenience Store
+Gaby Et Jules @ Market Street Grocery,,15222.0,Convenience Store
+Garfield Hill Market,,15206.0,Convenience Store
+Gas n' At,,15122.0,Convenience Store
+Get Go #3205,,15106.0,Convenience Store
+Get It Quick,,15146.0,Convenience Store
+Getgo # 3003,,15203.0,Convenience Store
+Getgo #3021,,15237.0,Convenience Store
+GetGo #3038,,15217.0,Convenience Store
+GetGo #3043,,15090.0,Convenience Store
+GetGo #3060,,15146.0,Convenience Store
+GetGo #3102,,15106.0,Convenience Store
+Getgo #3106,,15221.0,Convenience Store
+GetGo #3107,,15201.0,Convenience Store
+GetGo #3117,,15203.0,Convenience Store
+GetGo #3128,,15102.0,Convenience Store
+GetGo #3140,,15146.0,Convenience Store
+GetGo #3172,,15238.0,Convenience Store
+Getgo #3185,,15122.0,Convenience Store
+GetGo #3188,,15122.0,Convenience Store
+GetGo #3486,,15147.0,Convenience Store
+Getgo #3487,,15233.0,Convenience Store
+GetGo #3488,,15237.0,Convenience Store
+Getgo #3489,,15101.0,Convenience Store
+Getgo #3600,,15131.0,Convenience Store
+GetGo #3616,,15227.0,Convenience Store
+Getgo #3641,,15017.0,Convenience Store
+Getgo #3642,,15108.0,Convenience Store
+Getgo #3691,,15044.0,Convenience Store
+Getgo Elizabeth #3005,,15037.0,Convenience Store
+Glassmere Fuel Service #205,,15084.0,Convenience Store
+Good News,,15222.0,Convenience Store
+Greyhound Frankstown Sunoco A Plus,,15206.0,Convenience Store
+Gulf Gas Station - Bridgeville,,15017.0,Convenience Store
+Hampton Sunoco,,15101.0,Convenience Store
+Hanini Market,,15212.0,Convenience Store
+Hanini Market,,15112.0,Convenience Store
+Hanini Market/ Hanini Subs,,15221.0,Convenience Store
+Happy Minimart,,15108.0,Convenience Store
+Happy Minimart,,15137.0,Convenience Store
+Harvest Valley Farms,,15044.0,Convenience Store
+Harv's Shell Station,,15212.0,Convenience Store
+Homewood's Quik Pick,,15208.0,Convenience Store
+Honey Bear/Spee-D Mart #223,,15221.0,Convenience Store
+In & Out Market,,15136.0,Convenience Store
+Indian Grocery Oakland,,15213.0,Convenience Store
+J & K Plus Store #102,,15221.0,Convenience Store
+J & S Food Mart,,15110.0,Convenience Store
+J J's Deli Mart,,15132.0,Convenience Store
+J&M Dariette,,15025.0,Convenience Store
+Jack's Market & Coffee Shop,,15120.0,Convenience Store
+Jade 99 Asian Supermaket,,15222.0,Convenience Store
+Jessie's Westside Market,,15204.0,Convenience Store
+J-N-J Convenience Store,,15219.0,Convenience Store
+Joes Butcher Shop,,15140.0,Convenience Store
+K-2 Convenience Store,,15224.0,Convenience Store
+Ken's Grocery,,15210.0,Convenience Store
+Kiev International Food,,15217.0,Convenience Store
+Kubaa Oriental Grocery,,15212.0,Convenience Store
+Kudla's Service Center,,15102.0,Convenience Store
+Kwik Fill #239 S0001,,15046.0,Convenience Store
+Kwik Fill S0171,,15139.0,Convenience Store
+L A Grocery,,15206.0,Convenience Store
+L E Corner Store,,15206.0,Convenience Store
+Labad's Mediterranean Cafe & Grocery,,15222.0,Convenience Store
+Labriola Italian World,,15215.0,Convenience Store
+Last Minit Mart in Blawnox,,15238.0,Convenience Store
+Lebanon Shops Pharmacy,,15234.0,Convenience Store
+Le's Super Grocery Kart,,15206.0,Convenience Store
+Liberty News,,15222.0,Convenience Store
+Linea Verde - Green Market,,15224.0,Convenience Store
+Los Campos,,15090.0,Convenience Store
+Lovedale Valero,,15037.0,Convenience Store
+Lucky Bucks,,15211.0,Convenience Store
+Marathon Imperial Tri-State Petroleum #213,,15071.0,Convenience Store
+Marathon Tri-State Petroleum #201,,15220.0,Convenience Store
+Marathon Tri-State Petroleum #203,,15106.0,Convenience Store
+Marathon Tri-State Petroleum #219,,15213.0,Convenience Store
+Marathon Tri-State Petroleum #221,,15084.0,Convenience Store
+Marathon Tri-State Petroleum #222,,15238.0,Convenience Store
+Marathon Tri-State Petroleum #223,,15235.0,Convenience Store
+Marathon Tri-State Petroleum #224,,15224.0,Convenience Store
+Market on Middle,,15116.0,Convenience Store
+Marshall's Exxon,,15212.0,Convenience Store
+Mascari's Duncan Manor Exxon / Staks,,15101.0,Convenience Store
+Mash Mini Mart,,15146.0,Convenience Store
+Mauro's Exxon,,15235.0,Convenience Store
+McKees Rocks Sunoco A Plus,,15204.0,Convenience Store
+Meme's Market,,15212.0,Convenience Store
+Mike's Spot,,15235.0,Convenience Store
+Mini-Mitch Quick Stop,,15219.0,Convenience Store
+Morningside Market,,15206.0,Convenience Store
+Mr C's Convenience Store,,15229.0,Convenience Store
+Natoli's Market,,15044.0,Convenience Store
+Nelson Community Store,,15210.0,Convenience Store
+New Young's Oriental Grocery,,15217.0,Convenience Store
+Oakhill Convenient Store,,15213.0,Convenience Store
+OM Enterprise,,15226.0,Convenience Store
+On the Go Market,,15216.0,Convenience Store
+One Stop,,15213.0,Convenience Store
+Optima #1386,,15137.0,Convenience Store
+P & W Mini Mart,,15037.0,Convenience Store
+Parkway Service B P,,15220.0,Convenience Store
+ParMar Store #56,,15237.0,Convenience Store
+Penn Hills Sunoco,,15235.0,Convenience Store
+Penn Sunoco,,15224.0,Convenience Store
+People's Grocery,,15224.0,Convenience Store
+Perriello Produce,,15084.0,Convenience Store
+Pirollo's Delicatessen,,15147.0,Convenience Store
+Pitcairn Sunoco,,15140.0,Convenience Store
+Plum Convenience,,15239.0,Convenience Store
+Plum Sunoco,,15239.0,Convenience Store
+PNC C Store,,15222.0,Convenience Store
+PNK Store,,15212.0,Convenience Store
+Podmilsak's Market,,15024.0,Convenience Store
+Popeye's Mini Mart,,15084.0,Convenience Store
+Presto Qwik Stop,,15142.0,Convenience Store
+Prestogeorge Fine Foods,,15222.0,Convenience Store
+Produce Plus Market & Deli,,15202.0,Convenience Store
+Quick Stop,,15201.0,Convenience Store
+Quick Stop Sunoco,,15210.0,Convenience Store
+Quik Serv,,15202.0,Convenience Store
+R & M Variety Store,,15122.0,Convenience Store
+Red Paprika Foods,,15132.0,Convenience Store
+Reyes Tienda Mexicana,,15213.0,Convenience Store
+Rite Aid Pharmacies #10910,,15122.0,Convenience Store
+Rocks Express,,15136.0,Convenience Store
+Rockwell Market/Rockwell Hall @ Duquesne Univ.,,15282.0,Convenience Store
+Rossi's Market,,15108.0,Convenience Store
+Ruthfred Market,,15102.0,Convenience Store
+S & S Express Food Mart,,15215.0,Convenience Store
+Salem's Market,,15201.0,Convenience Store
+Samba Mini Mart,,15219.0,Convenience Store
+Sam's Market,,15219.0,Convenience Store
+Seoul Mart,,15213.0,Convenience Store
+SG Management Services,,15108.0,Convenience Store
+Shadyside Market,,15232.0,Convenience Store
+Sheetz #115,,15237.0,Convenience Store
+Sheetz #130,,15030.0,Convenience Store
+Sheetz #189,,15024.0,Convenience Store
+Sheetz #190,,15239.0,Convenience Store
+Sheetz #253,,15236.0,Convenience Store
+Sheetz #277,,15090.0,Convenience Store
+Sheetz #327,,15146.0,Convenience Store
+Sheetz #353,,15205.0,Convenience Store
+Sheetz #360,,15146.0,Convenience Store
+Sheetz #376,,15236.0,Convenience Store
+Sheetz #379,,15108.0,Convenience Store
+Sheetz #459,,15147.0,Convenience Store
+Sheetz #468,,15235.0,Convenience Store
+Sheetz #476,,15237.0,Convenience Store
+Sheetz #515,,15102.0,Convenience Store
+Shenderovich In & Out Market,,15238.0,Convenience Store
+Shenot's Farm Market,,15090.0,Convenience Store
+Shop N Go One,,15207.0,Convenience Store
+Shuman's Market,,15236.0,Convenience Store
+Sil's,,15071.0,Convenience Store
+Smithfield News,,15222.0,Convenience Store
+Soergel's Orchards,,15090.0,Convenience Store
+Sophia's,,15132.0,Convenience Store
+Soup Du Jour,,15044.0,Convenience Store
+South Fayette Sunoco,,15017.0,Convenience Store
+South Park Convenience Store,,15236.0,Convenience Store
+Speedway #2900,,15146.0,Convenience Store
+Speedway #2901,,15146.0,Convenience Store
+Speedway #2902,,15217.0,Convenience Store
+Speedway #2905,,15139.0,Convenience Store
+Speedway #2906,,15137.0,Convenience Store
+Speedway #2910,,15225.0,Convenience Store
+Speedway #2911,,15131.0,Convenience Store
+Speedway #6503,,15132.0,Convenience Store
+Speedy Food Mart,,15108.0,Convenience Store
+St Clair Mini Mart,,15241.0,Convenience Store
+Stetor's Red Hot Dollar,,15045.0,Convenience Store
+Stop - N - Go,,15221.0,Convenience Store
+Stop N Shop,,15221.0,Convenience Store
+Sub Stop-Marathon,,15227.0,Convenience Store
+Sultan Bey,,15213.0,Convenience Store
+Sunoco,,15215.0,Convenience Store
+Sunoco #7144,,15213.0,Convenience Store
+Sunoco #7278,,15228.0,Convenience Store
+Sunoco #7279,,15234.0,Convenience Store
+Sunoco #7353,,15209.0,Convenience Store
+Sunoco #7359,,15044.0,Convenience Store
+Sunoco #7374,,15236.0,Convenience Store
+Sunoco #7375,,15212.0,Convenience Store
+Sunoco #7414,,15202.0,Convenience Store
+Sunoco #7416,,15223.0,Convenience Store
+Sunoco #7501,,15112.0,Convenience Store
+Sunoco #7508,,15017.0,Convenience Store
+Sunoco / Banksville,,15216.0,Convenience Store
+Sunoco / Brookline,,15226.0,Convenience Store
+Sunoco A Plus #7517,,15227.0,Convenience Store
+Sunoco A Plus Mini Market,,15216.0,Convenience Store
+Sunoco A Plus Mini Market,,15221.0,Convenience Store
+Sunoco A Plus Mini Market,,15236.0,Convenience Store
+Sunoco A Plus Mini Market,,15206.0,Convenience Store
+Sunoco A Plus Mini Market #7372,,15218.0,Convenience Store
+Sunoco A Plus Mini Mart,,15210.0,Convenience Store
+Sunoco A Plus Mini Mart,,15131.0,Convenience Store
+Sunoco A Plus Mini Mart,,15213.0,Convenience Store
+Sunoco A Plus Mini Mart #6968,,15235.0,Convenience Store
+Sunoco A-Plus Mini Market #7485,,15224.0,Convenience Store
+Sunoco Choice Tobacco & Food Mart,,15146.0,Convenience Store
+Sunoco Mini Market,,15237.0,Convenience Store
+Sunoco Mini Mart,,15108.0,Convenience Store
+Sunoco Mini Mart,,15210.0,Convenience Store
+Sunoco Mini Mart #0364070303,,15241.0,Convenience Store
+Sunrise Sunoco A Plus,,15209.0,Convenience Store
+Super Mart,,15136.0,Convenience Store
+Super One Convience Store,,15218.0,Convenience Store
+Super Stop,,15104.0,Convenience Store
+Taste Buds Convenience Store,,15211.0,Convenience Store
+The Elliott's Town Market,,15220.0,Convenience Store
+TJ's Deli Mart #1,,15057.0,Convenience Store
+Today's Market,,15139.0,Convenience Store
+Tokyo Japanese Food Store,,15232.0,Convenience Store
+Trail View,,15018.0,Convenience Store
+Triangle Mart,,15210.0,Convenience Store
+Uni-Mart,,15108.0,Convenience Store
+Uni-Mart,,15210.0,Convenience Store
+Uni-Mart,,15236.0,Convenience Store
+Uni-Mart,,15108.0,Convenience Store
+Uni-Mart,,15122.0,Convenience Store
+Uni-Mart,,15212.0,Convenience Store
+Uni-Mart,,15139.0,Convenience Store
+Uni-Mart #94634,,15210.0,Convenience Store
+Up Town Minimart,,15219.0,Convenience Store
+Valero / Sitaram Oil Corporation,,15218.0,Convenience Store
+Valero Gas / Bethel Park,,15102.0,Convenience Store
+Valero Provost,,15227.0,Convenience Store
+Verona Exxon,,15147.0,Convenience Store
+Verona Sunoco,,15147.0,Convenience Store
+Vitamin Gallery,,15223.0,Convenience Store
+W B Convenience,,15106.0,Convenience Store
+Wagner's Market,,15044.0,Convenience Store
+Walgreens #09043,,15116.0,Convenience Store
+Walgreens #09281,,15206.0,Convenience Store
+Walgreens #10282,,15090.0,Convenience Store
+Walgreens #10917,,15108.0,Convenience Store
+Walgreens #9345,,15235.0,Convenience Store
+Walgreens #9803,,15139.0,Convenience Store
+Welmart,,15065.0,Convenience Store
+West Liberty BP,,15226.0,Convenience Store
+West View Shell,,15229.0,Convenience Store
+West View Sunoco,,15229.0,Convenience Store
+Wm Penn Hwy Sunoco,,15235.0,Convenience Store
+WN Grocery,,15233.0,Convenience Store
+Zoscak's Food Market,,15132.0,Convenience Store
+Zozos Marathon,,15237.0,Convenience Store
+GetGo #3137,,15056.0,Convenience Store
+Aldi #92,,15236.0,Supermarket
+Aldi,,15235.0,Supermarket
+Aldi #56,,15221.0,Supermarket
+Aldi #68,,15101.0,Supermarket
+Aldi #72,,15226.0,Supermarket
+Aldi #81,,15017.0,Supermarket
+Aldi #89,,15132.0,Supermarket
+Aldi #93,,15237.0,Supermarket
+Aldi Store #97,,15120.0,Supermarket
+Aldi #96,,15106.0,Supermarket
+Shop 'n Save #1076 Mt. Washington,,15211.0,Supermarket
+Giant Eagle #605 Elizabeth Township,,15037.0,Supermarket
+Giant Eagle #652,,15212.0,Supermarket
+Shop 'n Save #0212100,,15146.0,Supermarket
+Costco #332,,15205.0,Supermarket
+Costco #649,,15120.0,Supermarket
+Save A Lot / North Versailles,,15137.0,Supermarket
+Whitehall Asian Supermarket,,15227.0,Supermarket
+Donatelli's Italian Food Center,,15224.0,Supermarket
+Shop 'n Save,,15201.0,Supermarket
+East End Food Co-Op,,15208.0,Supermarket
+Kuhn's Market #7,,15108.0,Supermarket
+Kuhn's Market,,15237.0,Supermarket
+Kuhn's Market,,15127.0,Supermarket
+Kuhn's Market,,15145.0,Supermarket
+Family Food Center,,15210.0,Supermarket
+Giant Eagle #6379,,15120.0,Supermarket
+Giant Eagle #0004,,15102.0,Supermarket
+Giant Eagle #0015,,15137.0,Supermarket
+Giant Eagle #0052,,15237.0,Supermarket
+Giant Eagle #0073,,15122.0,Supermarket
+Giant Eagle #068,,15108.0,Supermarket
+Giant Eagle #17,,15206.0,Supermarket
+Giant Eagle #2,,15136.0,Supermarket
+Giant Eagle #24,,15017.0,Supermarket
+Giant Eagle #25,,15229.0,Supermarket
+Giant Eagle #29,,15122.0,Supermarket
+Giant Eagle #31,,15236.0,Supermarket
+Giant Eagle #35,,15220.0,Supermarket
+Giant Eagle #37,,15056.0,Supermarket
+Giant Eagle #38,,15217.0,Supermarket
+Giant Eagle #45,,15237.0,Supermarket
+Giant Eagle #47 / Market District Robinson,,15205.0,Supermarket
+Giant Eagle #60,,15146.0,Supermarket
+Giant Eagle #61,,15203.0,Supermarket
+Giant Eagle #63,,15217.0,Supermarket
+Giant Eagle #64,,15132.0,Supermarket
+Giant Eagle #65,,15212.0,Supermarket
+Giant Eagle #67,,15237.0,Supermarket
+Giant Eagle #74,,15220.0,Supermarket
+Giant Eagle #76,,15146.0,Supermarket
+Giant Eagle #77,,15221.0,Supermarket
+Giant Eagle #78,,15235.0,Supermarket
+Giant Eagle / Market District Pine #43,,15090.0,Supermarket
+Giant Eagle / Market District Shadyside #40,,15232.0,Supermarket
+Giant Eagle / Market District South Hills #14,,15102.0,Supermarket
+Giant Eagle / Market District Waterworks #72,,15238.0,Supermarket
+Giant Eagle Express #5103,,15238.0,Supermarket
+Giant Eagle #18,,15116.0,Supermarket
+Shop 'n Save / Gibsonia,,15044.0,Supermarket
+GFS Marketplace,,15236.0,Supermarket
+Gordon Food Service,,15146.0,Supermarket
+Shop 'n Save Penn Hills,,15235.0,Supermarket
+Shop 'n Save,,15239.0,Supermarket
+Giant Eagle #697,,15235.0,Supermarket
+Duquesne Save A Lot,,15110.0,Supermarket
+Shop 'n Save,,15234.0,Supermarket
+Food Shoppe,,15217.0,Supermarket
+Giant Eagle,,15218.0,Supermarket
+Shop 'n Save - Pines Plaza,,15237.0,Supermarket
+Shop 'n Save / Glenshaw #212403,,15116.0,Supermarket
+Shop 'n Save / Rochester,,15229.0,Supermarket
+Shop 'n Save / Shaler,,15209.0,Supermarket
+Shop 'n Save / Century Square,,15122.0,Supermarket
+Shop 'n Save / Noblestown #2412,,15205.0,Supermarket
+Shop 'n Save - Ross's Village,,15122.0,Supermarket
+Kuhn's Market,,15212.0,Supermarket
+Kuhn's Market,,15202.0,Supermarket
+Kuhn's Market #4,,15216.0,Supermarket
+Kuhn's Market,,15101.0,Supermarket
+Shop 'n Save,,15102.0,Supermarket
+Shop 'n Save - Wilkins Twp,,15235.0,Supermarket
+Shop 'n Save #0212404 Imperial,,15071.0,Supermarket
+Giant Eagle #646,,15205.0,Supermarket
+Shop 'n Save - Hill District,,15219.0,Supermarket
+Sam's Club #4952,,15084.0,Supermarket
+Sam's Club #6575,,15275.0,Supermarket
+Sam's Club #6677,,15146.0,Supermarket
+Sam's Club #6678,,15237.0,Supermarket
+Sam's Club #6679,,15122.0,Supermarket
+Save A Lot,,15132.0,Supermarket
+Giant Eagle Store #600,,15131.0,Supermarket
+Giant Eagle #641,,15017.0,Supermarket
+Wilkinsburg Save A Lot,,15221.0,Supermarket
+Shop 'n Save / Brownsville Road,,15210.0,Supermarket
+Shop 'n Save,,15132.0,Supermarket
+Shop 'n Save / Heidelberg,,15106.0,Supermarket
+Giant Eagle #1691,,15044.0,Supermarket
+Shop 'n Save,,15122.0,Supermarket
+Target #2757,,15206.0,Supermarket
+Target #2787,,15241.0,Supermarket
+Shop 'n Save / Russellton,,15076.0,Supermarket
+Trader Joe's #624,,15237.0,Supermarket
+Trader Joe's #638,,15206.0,Supermarket
+Trader Joe's #630,,15228.0,Supermarket
+Giant Eagle #695,,15147.0,Supermarket
+Wal-Mart Super Center #2281,,15122.0,Supermarket
+Wal-Mart Super Center #2300,,15275.0,Supermarket
+Wal-Mart Super Center #2588,,15137.0,Supermarket
+Wal-Mart Super Center #3738,,15065.0,Supermarket
+Wal-Mart Super Center #3838,,15084.0,Supermarket
+Whole Foods Market #53,,15206.0,Supermarket
+Whole Foods Wexford #10377,,15090.0,Supermarket
+Giant Eagle Market #616,,15227.0,Supermarket
+Save A Lot Crafton,,15205.0,Supermarket
+Shop 'n Save McKeesport,,15132.0,Supermarket
+The Uncommon Market,,15241.0,Supermarket
+Market Outlet,,15222.0,Supermarket
+Karibu International Market LLC,,15227.0,Supermarket
+South Hills IGA,,15236.0,Supermarket
+Leonard Labriola's Italian Market,,15146.0,Supermarket
+Lamperts Deli Express,,15132.0,Supermarket
+Las Palmas,,15226.0,Supermarket
+Leonard Labriola's Italian Store,,15086.0,Supermarket
+Shursave,,15224.0,Supermarket
+Groceria Italiano,,15224.0,Supermarket
+Market on Broadway IGA / Las Palmas,,15216.0,Supermarket
+Market on Forbes IGA,,15213.0,Supermarket
+McGinnis Sisters Market,,15146.0,Supermarket
+McGinnis Sisters Market,,15227.0,Supermarket
+Murray Avenue Kosher,,15217.0,Supermarket
+Oriental Market,,15237.0,Supermarket
+Pakeeza,,15146.0,Supermarket
+Robert Wholey Co,,15222.0,Supermarket
+T-Bones,,15090.0,Supermarket
+The Fresh Market,,15228.0,Supermarket
+Two Louie's Market,,15222.0,Supermarket
+WFH / Wing Fat Hong Oriental Food Market,,15222.0,Supermarket
+Bombay Market,,15213.0,Supermarket
+Brownsville Food & Drinks,,15210.0,Supermarket
+Community Super Market,,15147.0,Supermarket
+Coraopolis Cash Market,,15108.0,Supermarket
+Gorkhali Store,,15210.0,Supermarket
+Patsy's Market,,15147.0,Supermarket
+Safrans Market,,15143.0,Supermarket
+Subha Laxmi Grocery,,15227.0,Supermarket
+Community Market,,15065.0,Supermarket
+GFS Marketplace,,15205.0,Supermarket
+Leonard Labriola Foods,,15147.0,Supermarket
+Aldi #69,,15237.0,Supermarket
+Aldi #77,,15090.0,Supermarket
+Aldi #79,,15203.0,Supermarket
+Aldi #80,,15213.0,Supermarket
+Wal-Mart #2603,,15044.0,Supermarket
+Wal-Mart #5040,,15106.0,Supermarket
+Wal-Mart #5339,,15238.0,Supermarket
+,,,

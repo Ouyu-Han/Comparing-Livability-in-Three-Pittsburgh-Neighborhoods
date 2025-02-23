@@ -1,0 +1,3420 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e906aa1c59631408308f77f3aafdbce3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e906aa1c59631408308f77f3aafdbce3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e906aa1c59631408308f77f3aafdbce3 = L.map(
+                "map_e906aa1c59631408308f77f3aafdbce3",
+                {
+                    center: [40.4406, -79.9959],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_41127464fd9f0611cb8dee191bd8ee3b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_41127464fd9f0611cb8dee191bd8ee3b.addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var marker_f63ab2222c7e71239a2e76bf698534c0 = L.marker(
+                [40.467315, -79.95359],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_a182908d94408b7b5bba6fdfe7e8630b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_f63ab2222c7e71239a2e76bf698534c0.setIcon(icon_a182908d94408b7b5bba6fdfe7e8630b);
+        
+    
+        var popup_caa5d870bd86d56323714d6ce682ec04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_695dff19cf7a2dcdad035e34760dc3f3 = $(`<div id="html_695dff19cf7a2dcdad035e34760dc3f3" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> UPMC Children's <br>4401 Penn Avenue Pittsburgh, PA 15224</div>`)[0];
+                popup_caa5d870bd86d56323714d6ce682ec04.setContent(html_695dff19cf7a2dcdad035e34760dc3f3);
+            
+        
+
+        marker_f63ab2222c7e71239a2e76bf698534c0.bindPopup(popup_caa5d870bd86d56323714d6ce682ec04)
+        ;
+
+        
+    
+    
+            var marker_5b1b4d7eeb1ce27af8f663d781972440 = L.marker(
+                [40.436889, -79.9607],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_29348a716ae527b4142d5955fcd2a78a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5b1b4d7eeb1ce27af8f663d781972440.setIcon(icon_29348a716ae527b4142d5955fcd2a78a);
+        
+    
+        var popup_de01884bfed85b6f8851bbdcbe63517d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2f2d901a72248f47e054b2299d1fefc = $(`<div id="html_c2f2d901a72248f47e054b2299d1fefc" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> UPMC Magee<br>300 Halkett Street Pittsburgh, PA 15213<br>Region: Oakland</div>`)[0];
+                popup_de01884bfed85b6f8851bbdcbe63517d.setContent(html_c2f2d901a72248f47e054b2299d1fefc);
+            
+        
+
+        marker_5b1b4d7eeb1ce27af8f663d781972440.bindPopup(popup_de01884bfed85b6f8851bbdcbe63517d)
+        ;
+
+        
+    
+    
+            var marker_e93edd19754221ce507e67c66bc59433 = L.marker(
+                [40.351343, -79.849457],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_15d3fad831d89b76be37d7dc8af26346 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_e93edd19754221ce507e67c66bc59433.setIcon(icon_15d3fad831d89b76be37d7dc8af26346);
+        
+    
+        var popup_2f0787631b1ed10ffd3b3e03624aab09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f6a8a144324039246ecd423befd0dfd = $(`<div id="html_7f6a8a144324039246ecd423befd0dfd" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> UPMC McKeesport<br>1500 5th Avenue McKeesport, PA 15132</div>`)[0];
+                popup_2f0787631b1ed10ffd3b3e03624aab09.setContent(html_7f6a8a144324039246ecd423befd0dfd);
+            
+        
+
+        marker_e93edd19754221ce507e67c66bc59433.bindPopup(popup_2f0787631b1ed10ffd3b3e03624aab09)
+        ;
+
+        
+    
+    
+            var marker_59e1d881c3592b844a35fef41c40b514 = L.marker(
+                [40.436137, -79.985285],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_48de0364022cdbe43dc730d12811da36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_59e1d881c3592b844a35fef41c40b514.setIcon(icon_48de0364022cdbe43dc730d12811da36);
+        
+    
+        var popup_c9cce6b058d9c933a03fbc43dd1187eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2943d71752833682e9f41da4e7c87db8 = $(`<div id="html_2943d71752833682e9f41da4e7c87db8" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> UPMC Mercy<br>1400 Locust Street Pittsburgh, PA 15219</div>`)[0];
+                popup_c9cce6b058d9c933a03fbc43dd1187eb.setContent(html_2943d71752833682e9f41da4e7c87db8);
+            
+        
+
+        marker_59e1d881c3592b844a35fef41c40b514.bindPopup(popup_c9cce6b058d9c933a03fbc43dd1187eb)
+        ;
+
+        
+    
+    
+            var marker_f2afc82516b973028a37c3852f40c2a7 = L.marker(
+                [40.573319, -80.014525],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_80dfac29ff28b2cd19c12d1d2284a22b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_f2afc82516b973028a37c3852f40c2a7.setIcon(icon_80dfac29ff28b2cd19c12d1d2284a22b);
+        
+    
+        var popup_3c13bb53fc3790eb1d7cbd00e881399c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db64bef178380bb8832153f5d593c883 = $(`<div id="html_db64bef178380bb8832153f5d593c883" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> UPMC Passavant<br>9100 Babcock Boulevard Pittsburgh, PA 15237</div>`)[0];
+                popup_3c13bb53fc3790eb1d7cbd00e881399c.setContent(html_db64bef178380bb8832153f5d593c883);
+            
+        
+
+        marker_f2afc82516b973028a37c3852f40c2a7.bindPopup(popup_3c13bb53fc3790eb1d7cbd00e881399c)
+        ;
+
+        
+    
+    
+            var marker_a3b6599e3c24671b79dd795a64e28c6f = L.marker(
+                [40.441544, -79.959356],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_c1ec7c09d6c5af34582182143660fdab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a3b6599e3c24671b79dd795a64e28c6f.setIcon(icon_c1ec7c09d6c5af34582182143660fdab);
+        
+    
+        var popup_5367cafbe0f00bd4eaacf363fb7a0905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_627cb3d815dfe6ed3f9da9799c96f850 = $(`<div id="html_627cb3d815dfe6ed3f9da9799c96f850" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> UPMC Presbyterian<br>3601 Fifth Avenue Pittsburgh, PA  15213<br>Region: Oakland</div>`)[0];
+                popup_5367cafbe0f00bd4eaacf363fb7a0905.setContent(html_627cb3d815dfe6ed3f9da9799c96f850);
+            
+        
+
+        marker_a3b6599e3c24671b79dd795a64e28c6f.bindPopup(popup_5367cafbe0f00bd4eaacf363fb7a0905)
+        ;
+
+        
+    
+    
+            var marker_be24bb7663516b337ca4a5caa73112c8 = L.marker(
+                [40.454845, -79.939793],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_cee4b845d4a5c4d29ecc53b38f4bbb33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_be24bb7663516b337ca4a5caa73112c8.setIcon(icon_cee4b845d4a5c4d29ecc53b38f4bbb33);
+        
+    
+        var popup_fa126206b6b173121fba92ff5df839dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a6889dbc1fd688d3e1bbb2409df42b7 = $(`<div id="html_5a6889dbc1fd688d3e1bbb2409df42b7" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> UPMC Shadyside<br>5230 Center Ave Pittsburgh, PA  15232<br>Region: Shadyside</div>`)[0];
+                popup_fa126206b6b173121fba92ff5df839dd.setContent(html_5a6889dbc1fd688d3e1bbb2409df42b7);
+            
+        
+
+        marker_be24bb7663516b337ca4a5caa73112c8.bindPopup(popup_fa126206b6b173121fba92ff5df839dd)
+        ;
+
+        
+    
+    
+            var marker_6d7c996addc6ab213ec230ae70762e3e = L.marker(
+                [40.489286, -79.895994],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_7289c10c1598cb964538fcfb96dafede = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_6d7c996addc6ab213ec230ae70762e3e.setIcon(icon_7289c10c1598cb964538fcfb96dafede);
+        
+    
+        var popup_d6eab3daf1ca92eded2075c312913bd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bb2b71a62e355aafe1dfa8249490332 = $(`<div id="html_8bb2b71a62e355aafe1dfa8249490332" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> UPMC St. Margaret's<br>815 Freeport Road Pittsburgh, PA 15215</div>`)[0];
+                popup_d6eab3daf1ca92eded2075c312913bd8.setContent(html_8bb2b71a62e355aafe1dfa8249490332);
+            
+        
+
+        marker_6d7c996addc6ab213ec230ae70762e3e.bindPopup(popup_d6eab3daf1ca92eded2075c312913bd8)
+        ;
+
+        
+    
+    
+            var marker_84eb9d00382e935229b28ddc70df9242 = L.marker(
+                [40.436561, -79.760197],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_9e33e8d17da0783b79f509c4ecf23c2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_84eb9d00382e935229b28ddc70df9242.setIcon(icon_9e33e8d17da0783b79f509c4ecf23c2b);
+        
+    
+        var popup_084b88f4546c06e0723ce658462c49f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36d08a57385ede649083107a340c0952 = $(`<div id="html_36d08a57385ede649083107a340c0952" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> UPMC East<br>2775 Mosside Boulevard Monroeville, PA 15146</div>`)[0];
+                popup_084b88f4546c06e0723ce658462c49f1.setContent(html_36d08a57385ede649083107a340c0952);
+            
+        
+
+        marker_84eb9d00382e935229b28ddc70df9242.bindPopup(popup_084b88f4546c06e0723ce658462c49f1)
+        ;
+
+        
+    
+    
+            var marker_914472a526b8c6c7f0185a7988ddfa0f = L.marker(
+                [40.45701, -80.003724],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_542630e038025103996c1fa6ae871e89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_914472a526b8c6c7f0185a7988ddfa0f.setIcon(icon_542630e038025103996c1fa6ae871e89);
+        
+    
+        var popup_32c6e4682840f66de4ced1b620ab66f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8686a929a62e8f0cda6255e9922c6b01 = $(`<div id="html_8686a929a62e8f0cda6255e9922c6b01" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> Allegheny General Hospital<br>AGH 320 E. North Ave, PGH 15212</div>`)[0];
+                popup_32c6e4682840f66de4ced1b620ab66f6.setContent(html_8686a929a62e8f0cda6255e9922c6b01);
+            
+        
+
+        marker_914472a526b8c6c7f0185a7988ddfa0f.bindPopup(popup_32c6e4682840f66de4ced1b620ab66f6)
+        ;
+
+        
+    
+    
+            var marker_5e9728403418b2176bfc47d3fa06d770 = L.marker(
+                [40.619129, -79.737849],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_a7396e78239a1768131da119cbb2f9f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_5e9728403418b2176bfc47d3fa06d770.setIcon(icon_a7396e78239a1768131da119cbb2f9f2);
+        
+    
+        var popup_695f217416c6a20c8c6dd964a43711c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7d6f3c103d24ad1437ca7fe7a3bf762 = $(`<div id="html_a7d6f3c103d24ad1437ca7fe7a3bf762" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> Allegheny Valley Hospital<br>Allegheny Valley 1301 Carlisle Street, Natrona Heights, PA 15065</div>`)[0];
+                popup_695f217416c6a20c8c6dd964a43711c7.setContent(html_a7d6f3c103d24ad1437ca7fe7a3bf762);
+            
+        
+
+        marker_5e9728403418b2176bfc47d3fa06d770.bindPopup(popup_695f217416c6a20c8c6dd964a43711c7)
+        ;
+
+        
+    
+    
+            var marker_d123f74579aa893da561dd7aebb421c4 = L.marker(
+                [40.427585, -79.747217],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_737c11d3e5ef102918b2b489afc9f89c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_d123f74579aa893da561dd7aebb421c4.setIcon(icon_737c11d3e5ef102918b2b489afc9f89c);
+        
+    
+        var popup_868e7dfd01d1744d1db648a0c38bb789 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11598c6361bf7d82915665cef1b3ace6 = $(`<div id="html_11598c6361bf7d82915665cef1b3ace6" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> Forbes Regional Hospital<br>Forbes Regional 2570 Haymaker Rd, Monroeville, PA 15146</div>`)[0];
+                popup_868e7dfd01d1744d1db648a0c38bb789.setContent(html_11598c6361bf7d82915665cef1b3ace6);
+            
+        
+
+        marker_d123f74579aa893da561dd7aebb421c4.bindPopup(popup_868e7dfd01d1744d1db648a0c38bb789)
+        ;
+
+        
+    
+    
+            var marker_2cd743d2890f4781d245c45ffbfe83a7 = L.marker(
+                [40.461453, -79.946364],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_f1fb2807dc89ecf6a08a3d01e5018745 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_2cd743d2890f4781d245c45ffbfe83a7.setIcon(icon_f1fb2807dc89ecf6a08a3d01e5018745);
+        
+    
+        var popup_71ab72ae7c53e8ee4c8853b1246957b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18f59947b97c21cfeeb6f46b40b9db4d = $(`<div id="html_18f59947b97c21cfeeb6f46b40b9db4d" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> West Penn Hospital<br>West Penn 4800 Friendship Ave, PGH 15224</div>`)[0];
+                popup_71ab72ae7c53e8ee4c8853b1246957b9.setContent(html_18f59947b97c21cfeeb6f46b40b9db4d);
+            
+        
+
+        marker_2cd743d2890f4781d245c45ffbfe83a7.bindPopup(popup_71ab72ae7c53e8ee4c8853b1246957b9)
+        ;
+
+        
+    
+    
+            var marker_39ad177c02c27dd5807e8803eedb7300 = L.marker(
+                [40.447391, -79.959788],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_ec6ec33eeb197daa7079e2ed6feaf658 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_39ad177c02c27dd5807e8803eedb7300.setIcon(icon_ec6ec33eeb197daa7079e2ed6feaf658);
+        
+    
+        var popup_820b717331df61f0ff0519a512573af9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa85d18e7d21fdb552f146595028aebb = $(`<div id="html_aa85d18e7d21fdb552f146595028aebb" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> VA Pittsburgh Hospital<br>VA Pittsburgh 4100 Allequippa St, PGH 15261</div>`)[0];
+                popup_820b717331df61f0ff0519a512573af9.setContent(html_aa85d18e7d21fdb552f146595028aebb);
+            
+        
+
+        marker_39ad177c02c27dd5807e8803eedb7300.bindPopup(popup_820b717331df61f0ff0519a512573af9)
+        ;
+
+        
+    
+    
+            var marker_4f8dd0166318149caad95095f40a631c = L.marker(
+                [40.543454, -80.177601],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_84fcfe654fa8743ffca924ca20e1c0ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_4f8dd0166318149caad95095f40a631c.setIcon(icon_84fcfe654fa8743ffca924ca20e1c0ef);
+        
+    
+        var popup_bcc3a36d3ee57bf0ca87be494df73c02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be0885abb70ebb0c23f42f2811efb4c6 = $(`<div id="html_be0885abb70ebb0c23f42f2811efb4c6" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> Heritage Valley Hospital<br>Heritage Valley Sewickley 720 Blackburn Rd, Sewickley, PA 15143</div>`)[0];
+                popup_bcc3a36d3ee57bf0ca87be494df73c02.setContent(html_be0885abb70ebb0c23f42f2811efb4c6);
+            
+        
+
+        marker_4f8dd0166318149caad95095f40a631c.bindPopup(popup_bcc3a36d3ee57bf0ca87be494df73c02)
+        ;
+
+        
+    
+    
+            var marker_ec2487d954c70ffe5eeb900138e251ca = L.marker(
+                [40.31844, -79.933488],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_61c9c241f0eee565ff7076efadb0b61a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_ec2487d954c70ffe5eeb900138e251ca.setIcon(icon_61c9c241f0eee565ff7076efadb0b61a);
+        
+    
+        var popup_79c9c1b30770474ff22d02479b24be31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_455411c75491f26a1520efc65846eca3 = $(`<div id="html_455411c75491f26a1520efc65846eca3" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> Jefferson Regional Hospital<br>Jefferson Regional 565 Coal Valley Rd, Clairton, PA 15025</div>`)[0];
+                popup_79c9c1b30770474ff22d02479b24be31.setContent(html_455411c75491f26a1520efc65846eca3);
+            
+        
+
+        marker_ec2487d954c70ffe5eeb900138e251ca.bindPopup(popup_79c9c1b30770474ff22d02479b24be31)
+        ;
+
+        
+    
+    
+            var marker_9d7ef603cb7dc0c076a2b07d06a28ee3 = L.marker(
+                [40.472755, -80.090742],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_2e431f752da90f18d01e90a67ecd4e80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_9d7ef603cb7dc0c076a2b07d06a28ee3.setIcon(icon_2e431f752da90f18d01e90a67ecd4e80);
+        
+    
+        var popup_5b7aaaeb06a5f21e5b9e99703dd3584e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd571b35ce9fada48b67d544d4e6a934 = $(`<div id="html_bd571b35ce9fada48b67d544d4e6a934" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> Ohio Valley Hospital<br>Ohio Valley 25 Heckel Rd, McKees Rocks, PA 15136</div>`)[0];
+                popup_5b7aaaeb06a5f21e5b9e99703dd3584e.setContent(html_bd571b35ce9fada48b67d544d4e6a934);
+            
+        
+
+        marker_9d7ef603cb7dc0c076a2b07d06a28ee3.bindPopup(popup_5b7aaaeb06a5f21e5b9e99703dd3584e)
+        ;
+
+        
+    
+    
+            var marker_0f82c1d1a4aa17b237f9caa2a5a95aa0 = L.marker(
+                [40.378099, -80.06661],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_fd846bf38ed4947905880049d6821101 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_0f82c1d1a4aa17b237f9caa2a5a95aa0.setIcon(icon_fd846bf38ed4947905880049d6821101);
+        
+    
+        var popup_6dda2693d87431807dc0e0b3cd416891 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f67e9afd6b72a677321a48902f12fcae = $(`<div id="html_f67e9afd6b72a677321a48902f12fcae" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> St Clair Hospital<br>St. Clair 1000 Bower Hill Rd, PGH 15243</div>`)[0];
+                popup_6dda2693d87431807dc0e0b3cd416891.setContent(html_f67e9afd6b72a677321a48902f12fcae);
+            
+        
+
+        marker_0f82c1d1a4aa17b237f9caa2a5a95aa0.bindPopup(popup_6dda2693d87431807dc0e0b3cd416891)
+        ;
+
+        
+    
+    
+            var marker_48da9c72dfa4cbf7340902b5f4f7fbc6 = L.marker(
+                [40.576315, -80.203135],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_a4c28b73369292b8b73dd90aabce50bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_48da9c72dfa4cbf7340902b5f4f7fbc6.setIcon(icon_a4c28b73369292b8b73dd90aabce50bd);
+        
+    
+        var popup_73189185df4bfea95f0f9a9f7b77b6d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfb530aeb69fb42918ee8db86e73a3d3 = $(`<div id="html_bfb530aeb69fb42918ee8db86e73a3d3" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> Health South Rehab Sewickly<br>303 Camp Meeting Rd, Sewickley, PA 15143</div>`)[0];
+                popup_73189185df4bfea95f0f9a9f7b77b6d8.setContent(html_bfb530aeb69fb42918ee8db86e73a3d3);
+            
+        
+
+        marker_48da9c72dfa4cbf7340902b5f4f7fbc6.bindPopup(popup_73189185df4bfea95f0f9a9f7b77b6d8)
+        ;
+
+        
+    
+    
+            var marker_da1093424e0a50adb03988a33f1c0757 = L.marker(
+                [40.321195, -80.112625],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_546ba8439062a45ecc4803fb6d4941a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_da1093424e0a50adb03988a33f1c0757.setIcon(icon_546ba8439062a45ecc4803fb6d4941a3);
+        
+    
+        var popup_72d58b54e284e7c6c22b1ce579d97285 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca02be68bbacf0fe6e542d998912f53e = $(`<div id="html_ca02be68bbacf0fe6e542d998912f53e" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> Southwood Psychatric Hospital<br>2575 Boyce Plaza Rd, Pittsburgh, PA 15241</div>`)[0];
+                popup_72d58b54e284e7c6c22b1ce579d97285.setContent(html_ca02be68bbacf0fe6e542d998912f53e);
+            
+        
+
+        marker_da1093424e0a50adb03988a33f1c0757.bindPopup(popup_72d58b54e284e7c6c22b1ce579d97285)
+        ;
+
+        
+    
+    
+            var marker_d95fe960935aebc042fa77d28ef133af = L.marker(
+                [40.424369, -79.745967],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_bf6cd95d0396572e58b6572c018ebccb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_d95fe960935aebc042fa77d28ef133af.setIcon(icon_bf6cd95d0396572e58b6572c018ebccb);
+        
+    
+        var popup_19e1b1ac4fbe366760e335e28c99f730 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a802f84e55fae51c7d2d2947bbfb558d = $(`<div id="html_a802f84e55fae51c7d2d2947bbfb558d" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> Lifecare Hospital of Monroville<br>2380 McGinley Road, Monroeville, PA 15146</div>`)[0];
+                popup_19e1b1ac4fbe366760e335e28c99f730.setContent(html_a802f84e55fae51c7d2d2947bbfb558d);
+            
+        
+
+        marker_d95fe960935aebc042fa77d28ef133af.bindPopup(popup_19e1b1ac4fbe366760e335e28c99f730)
+        ;
+
+        
+    
+    
+            var marker_997c23ab5175729837620dd665bb1e8e = L.marker(
+                [40.536213, -79.849228],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_466a033ccc811ad6041680096f3b2890 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_997c23ab5175729837620dd665bb1e8e.setIcon(icon_466a033ccc811ad6041680096f3b2890);
+        
+    
+        var popup_937f65de7e85747004ede59fcff3df1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba4f53c12b6d491771acee2f8079f8bb = $(`<div id="html_ba4f53c12b6d491771acee2f8079f8bb" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> Health South  Harmaville Rehabilitaiton <br>320 Guys Run Rd, Pittsburgh, PA 15238</div>`)[0];
+                popup_937f65de7e85747004ede59fcff3df1c.setContent(html_ba4f53c12b6d491771acee2f8079f8bb);
+            
+        
+
+        marker_997c23ab5175729837620dd665bb1e8e.bindPopup(popup_937f65de7e85747004ede59fcff3df1c)
+        ;
+
+        
+    
+    
+            var marker_50d0ab05e8456f6c0f7f7d2e7c391db5 = L.marker(
+                [40.494569, -80.060335],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_8a89346d4ffc24f1efe542b033252600 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_50d0ab05e8456f6c0f7f7d2e7c391db5.setIcon(icon_8a89346d4ffc24f1efe542b033252600);
+        
+    
+        var popup_d24bada3f5f13a07b13c62965ff58661 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b6320627a4e2003fcbfce6399ae3a02 = $(`<div id="html_4b6320627a4e2003fcbfce6399ae3a02" style="width: 100.0%; height: 100.0%;"><b>Hospital:</b> Lifecare Hospital of PGH Suburban<br>100 S Jackson Ave, Pittsburgh, PA 15202</div>`)[0];
+                popup_d24bada3f5f13a07b13c62965ff58661.setContent(html_4b6320627a4e2003fcbfce6399ae3a02);
+            
+        
+
+        marker_50d0ab05e8456f6c0f7f7d2e7c391db5.bindPopup(popup_d24bada3f5f13a07b13c62965ff58661)
+        ;
+
+        
+    
+    
+            var marker_9042420888e72cd40113887e0c07bf7d = L.marker(
+                [40.42941512, -79.91913199],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_8c9cda252183efbb4c9982c0969e7380 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9042420888e72cd40113887e0c07bf7d.setIcon(icon_8c9cda252183efbb4c9982c0969e7380);
+        
+    
+        var popup_19ca909104cd7cf7860340acf88237f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d33b0ba6026b7d59c1f0653a404824e = $(`<div id="html_9d33b0ba6026b7d59c1f0653a404824e" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Allderdice Early Headstart<br>2409 Shady Avenue<br>Region: Squirrel Hill</div>`)[0];
+                popup_19ca909104cd7cf7860340acf88237f1.setContent(html_9d33b0ba6026b7d59c1f0653a404824e);
+            
+        
+
+        marker_9042420888e72cd40113887e0c07bf7d.bindPopup(popup_19ca909104cd7cf7860340acf88237f1)
+        ;
+
+        
+    
+    
+            var marker_5935d3a2ca5ca11387eb43a0e8a70b0f = L.marker(
+                [40.42941584, -79.91937003],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_99cf1d298e3e9fd96490c16877fbdcc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5935d3a2ca5ca11387eb43a0e8a70b0f.setIcon(icon_99cf1d298e3e9fd96490c16877fbdcc7);
+        
+    
+        var popup_b0c0a68221f3e1ab475eff81f4ab4247 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_160a139866bf1cb7150cf24cf32d0e13 = $(`<div id="html_160a139866bf1cb7150cf24cf32d0e13" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Allderdice High School<br>2409 SHADY AVE<br>Region: Squirrel Hill</div>`)[0];
+                popup_b0c0a68221f3e1ab475eff81f4ab4247.setContent(html_160a139866bf1cb7150cf24cf32d0e13);
+            
+        
+
+        marker_5935d3a2ca5ca11387eb43a0e8a70b0f.bindPopup(popup_b0c0a68221f3e1ab475eff81f4ab4247)
+        ;
+
+        
+    
+    
+            var marker_5046d57d6c67776294a66b3f2b04bfaa = L.marker(
+                [40.45323078, -80.00865536],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_d348116d1baf67464bcd7db0b463a4d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_5046d57d6c67776294a66b3f2b04bfaa.setIcon(icon_d348116d1baf67464bcd7db0b463a4d3);
+        
+    
+        var popup_579456e037790d7a1ab924dbe5de6118 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97b71aef7c72832179ec9f5b8109349a = $(`<div id="html_97b71aef7c72832179ec9f5b8109349a" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Allegheny 6-8<br>810 ARCH ST</div>`)[0];
+                popup_579456e037790d7a1ab924dbe5de6118.setContent(html_97b71aef7c72832179ec9f5b8109349a);
+            
+        
+
+        marker_5046d57d6c67776294a66b3f2b04bfaa.bindPopup(popup_579456e037790d7a1ab924dbe5de6118)
+        ;
+
+        
+    
+    
+            var marker_b2db3fd46283c005b8442391052f2306 = L.marker(
+                [40.45326626, -80.00859976],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_00ab7e1d8c7429af343fe5cd5133d62a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_b2db3fd46283c005b8442391052f2306.setIcon(icon_00ab7e1d8c7429af343fe5cd5133d62a);
+        
+    
+        var popup_7f4e20831e5e3825cc871ae45e71313f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08261381c003f07eca4b5a8b208e990e = $(`<div id="html_08261381c003f07eca4b5a8b208e990e" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Allegheny Early Childhood<br>810 ARCH STREET</div>`)[0];
+                popup_7f4e20831e5e3825cc871ae45e71313f.setContent(html_08261381c003f07eca4b5a8b208e990e);
+            
+        
+
+        marker_b2db3fd46283c005b8442391052f2306.bindPopup(popup_7f4e20831e5e3825cc871ae45e71313f)
+        ;
+
+        
+    
+    
+            var marker_3304d83b70f94ac15a5837f551347f1a = L.marker(
+                [40.45318053, -80.0088948],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_44aeccb1d5874c1ef31540e43bed9807 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_3304d83b70f94ac15a5837f551347f1a.setIcon(icon_44aeccb1d5874c1ef31540e43bed9807);
+        
+    
+        var popup_3a67b3b4aa5bcf349f352e0557c10314 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9773ffd7f79ca119eabd2c9b4173155d = $(`<div id="html_9773ffd7f79ca119eabd2c9b4173155d" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Allegheny K-5<br>810 ARCH ST</div>`)[0];
+                popup_3a67b3b4aa5bcf349f352e0557c10314.setContent(html_9773ffd7f79ca119eabd2c9b4173155d);
+            
+        
+
+        marker_3304d83b70f94ac15a5837f551347f1a.bindPopup(popup_3a67b3b4aa5bcf349f352e0557c10314)
+        ;
+
+        
+    
+    
+            var marker_892b5d0209445665ff8771b436fb8790 = L.marker(
+                [40.4087008, -79.97932076],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_2cd0f5e9a16639f575fa630f6b075b1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_892b5d0209445665ff8771b436fb8790.setIcon(icon_2cd0f5e9a16639f575fa630f6b075b1a);
+        
+    
+        var popup_353b509219310c5f3efa940bb86a5a0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fec02cd5893b73b59582b876abbab0f8 = $(`<div id="html_fec02cd5893b73b59582b876abbab0f8" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Arlington Early Childhood Center<br>800 RECTENWALD ST</div>`)[0];
+                popup_353b509219310c5f3efa940bb86a5a0b.setContent(html_fec02cd5893b73b59582b876abbab0f8);
+            
+        
+
+        marker_892b5d0209445665ff8771b436fb8790.bindPopup(popup_353b509219310c5f3efa940bb86a5a0b)
+        ;
+
+        
+    
+    
+            var marker_1f33500504c0eb9b87f9dae53f13b9fb = L.marker(
+                [40.40856969, -79.97940289],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_267cdb611da0360cf7d37c5e40fa7263 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_1f33500504c0eb9b87f9dae53f13b9fb.setIcon(icon_267cdb611da0360cf7d37c5e40fa7263);
+        
+    
+        var popup_0a667ca205c8dd21a653b20ed4681b05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_357b8e2a890bebdf27abc6a519577966 = $(`<div id="html_357b8e2a890bebdf27abc6a519577966" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Arlington PreK-8<br>800 RECTENWALD ST</div>`)[0];
+                popup_0a667ca205c8dd21a653b20ed4681b05.setContent(html_357b8e2a890bebdf27abc6a519577966);
+            
+        
+
+        marker_1f33500504c0eb9b87f9dae53f13b9fb.bindPopup(popup_0a667ca205c8dd21a653b20ed4681b05)
+        ;
+
+        
+    
+    
+            var marker_06073a0d6130e78af8a66bb1eab077c9 = L.marker(
+                [40.46833366, -79.96193817],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_5e16bd8e0ad166b6260e5a0c09dbb710 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_06073a0d6130e78af8a66bb1eab077c9.setIcon(icon_5e16bd8e0ad166b6260e5a0c09dbb710);
+        
+    
+        var popup_955a0b02cb88f81524302ecd9f1b8345 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30f3f913a6e77446118ad1a032ec90eb = $(`<div id="html_30f3f913a6e77446118ad1a032ec90eb" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Arsenal 6-8<br>220 40TH STREET</div>`)[0];
+                popup_955a0b02cb88f81524302ecd9f1b8345.setContent(html_30f3f913a6e77446118ad1a032ec90eb);
+            
+        
+
+        marker_06073a0d6130e78af8a66bb1eab077c9.bindPopup(popup_955a0b02cb88f81524302ecd9f1b8345)
+        ;
+
+        
+    
+    
+            var marker_93529ae68559c4fb5c62e4ede2608d14 = L.marker(
+                [40.46719251, -79.96283054],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_d00a09249b4d75170997ba6204895037 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_93529ae68559c4fb5c62e4ede2608d14.setIcon(icon_d00a09249b4d75170997ba6204895037);
+        
+    
+        var popup_ac9606f3bf7dd297524adb9530324379 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b37009e7ac3aeb07351b35c12038223d = $(`<div id="html_b37009e7ac3aeb07351b35c12038223d" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Arsenal Early Childhood Center<br>215 39th Street</div>`)[0];
+                popup_ac9606f3bf7dd297524adb9530324379.setContent(html_b37009e7ac3aeb07351b35c12038223d);
+            
+        
+
+        marker_93529ae68559c4fb5c62e4ede2608d14.bindPopup(popup_ac9606f3bf7dd297524adb9530324379)
+        ;
+
+        
+    
+    
+            var marker_b38e8f45c73efdaecb0d69cee04557f1 = L.marker(
+                [40.46737245, -79.96340875],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_2d5c959f025375c8f52e1599bf7bb4fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_b38e8f45c73efdaecb0d69cee04557f1.setIcon(icon_2d5c959f025375c8f52e1599bf7bb4fd);
+        
+    
+        var popup_7820392fc5201f31e770e9148e721721 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa8906170e16b9bc635d71f2b9f35e6a = $(`<div id="html_fa8906170e16b9bc635d71f2b9f35e6a" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Arsenal PreK-5<br>215 39th St</div>`)[0];
+                popup_7820392fc5201f31e770e9148e721721.setContent(html_fa8906170e16b9bc635d71f2b9f35e6a);
+            
+        
+
+        marker_b38e8f45c73efdaecb0d69cee04557f1.bindPopup(popup_7820392fc5201f31e770e9148e721721)
+        ;
+
+        
+    
+    
+            var marker_1d772bdee1cf4b742b1245696482c7da = L.marker(
+                [40.4074182, -80.03673077],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_68c2aef53af5c6f1026719025addc2e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_1d772bdee1cf4b742b1245696482c7da.setIcon(icon_68c2aef53af5c6f1026719025addc2e8);
+        
+    
+        var popup_ed548e5a67d5976abc4fd608e17f0cf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2fa15d75ad4a9d2d707d330aeac1843 = $(`<div id="html_e2fa15d75ad4a9d2d707d330aeac1843" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Banksville K-5<br>1001 CARNAHAN RD</div>`)[0];
+                popup_ed548e5a67d5976abc4fd608e17f0cf2.setContent(html_e2fa15d75ad4a9d2d707d330aeac1843);
+            
+        
+
+        marker_1d772bdee1cf4b742b1245696482c7da.bindPopup(popup_ed548e5a67d5976abc4fd608e17f0cf2)
+        ;
+
+        
+    
+    
+            var marker_5b5d7b10aaf99604aab1aea84e9a5d2c = L.marker(
+                [40.41463554, -80.02056154],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_0390b2403fdadcb576ad80dcbb12d846 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_5b5d7b10aaf99604aab1aea84e9a5d2c.setIcon(icon_0390b2403fdadcb576ad80dcbb12d846);
+        
+    
+        var popup_0a722b67d843476fc17c9868e4996c28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac757183df06f54cc159c34ba3549057 = $(`<div id="html_ac757183df06f54cc159c34ba3549057" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Beechwood Early Childhood<br>810 ROCKLAND AVENUE</div>`)[0];
+                popup_0a722b67d843476fc17c9868e4996c28.setContent(html_ac757183df06f54cc159c34ba3549057);
+            
+        
+
+        marker_5b5d7b10aaf99604aab1aea84e9a5d2c.bindPopup(popup_0a722b67d843476fc17c9868e4996c28)
+        ;
+
+        
+    
+    
+            var marker_30fff4234c900efd53c1680a12ed2046 = L.marker(
+                [40.41562862, -80.0207987],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_b263aaabb8952e0d595f21f33332af46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_30fff4234c900efd53c1680a12ed2046.setIcon(icon_b263aaabb8952e0d595f21f33332af46);
+        
+    
+        var popup_25050b106578804231015b1dc6acd083 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_744a5fba40366920fa496fd03c5cdd23 = $(`<div id="html_744a5fba40366920fa496fd03c5cdd23" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Beechwood PreK-5<br>810 ROCKLAND AVE</div>`)[0];
+                popup_25050b106578804231015b1dc6acd083.setContent(html_744a5fba40366920fa496fd03c5cdd23);
+            
+        
+
+        marker_30fff4234c900efd53c1680a12ed2046.bindPopup(popup_25050b106578804231015b1dc6acd083)
+        ;
+
+        
+    
+    
+            var marker_69c6b9bc3c998ed324754ad7e1c988ce = L.marker(
+                [40.41808237, -80.01822357],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_68434a7a4bf78f7246047ad2c28b381e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_69c6b9bc3c998ed324754ad7e1c988ce.setIcon(icon_68434a7a4bf78f7246047ad2c28b381e);
+        
+    
+        var popup_7074d43c8c0f21d25dd1e0ec1b8bfe1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef23a797a279aa5b3854b45b2a759fc9 = $(`<div id="html_ef23a797a279aa5b3854b45b2a759fc9" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Brashear Early Headstart<br>590 CRANE AVENUE</div>`)[0];
+                popup_7074d43c8c0f21d25dd1e0ec1b8bfe1e.setContent(html_ef23a797a279aa5b3854b45b2a759fc9);
+            
+        
+
+        marker_69c6b9bc3c998ed324754ad7e1c988ce.bindPopup(popup_7074d43c8c0f21d25dd1e0ec1b8bfe1e)
+        ;
+
+        
+    
+    
+            var marker_f24c57f9ee43cc2e05ff06e84f54eaa9 = L.marker(
+                [40.41808237, -80.01822357],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_4d91209c5546fd8c79aeb878edd145ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_f24c57f9ee43cc2e05ff06e84f54eaa9.setIcon(icon_4d91209c5546fd8c79aeb878edd145ed);
+        
+    
+        var popup_c6f55c018b3a75c2021b1f5b44e7b009 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dba5b933faca090054dd6397cf7c238 = $(`<div id="html_9dba5b933faca090054dd6397cf7c238" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Brashear High School<br>590 CRANE AVE</div>`)[0];
+                popup_c6f55c018b3a75c2021b1f5b44e7b009.setContent(html_9dba5b933faca090054dd6397cf7c238);
+            
+        
+
+        marker_f24c57f9ee43cc2e05ff06e84f54eaa9.bindPopup(popup_c6f55c018b3a75c2021b1f5b44e7b009)
+        ;
+
+        
+    
+    
+            var marker_4ad4c515eed9117d714f979a60395a08 = L.marker(
+                [40.39452138, -80.02487004],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_db81477a9e2901197ce81222aa8f5665 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_4ad4c515eed9117d714f979a60395a08.setIcon(icon_db81477a9e2901197ce81222aa8f5665);
+        
+    
+        var popup_74d64d595dad7e9f7d4092fc2cf00bf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0689557dbf9e871f3fbd1da54b1090ce = $(`<div id="html_0689557dbf9e871f3fbd1da54b1090ce" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Brookline Early Childhood<br>500 WOODBOURNE AVENUE</div>`)[0];
+                popup_74d64d595dad7e9f7d4092fc2cf00bf0.setContent(html_0689557dbf9e871f3fbd1da54b1090ce);
+            
+        
+
+        marker_4ad4c515eed9117d714f979a60395a08.bindPopup(popup_74d64d595dad7e9f7d4092fc2cf00bf0)
+        ;
+
+        
+    
+    
+            var marker_59f5881694d152a01ec6e2894232291b = L.marker(
+                [40.39441107, -80.02473593],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_a7497ccd1f8a8b42a5df1b7a52fb186d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_59f5881694d152a01ec6e2894232291b.setIcon(icon_a7497ccd1f8a8b42a5df1b7a52fb186d);
+        
+    
+        var popup_f0c7bb164be2a6c57b9d3e9f59d52096 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c70396c1e4de961aee4dc786bf76c1d3 = $(`<div id="html_c70396c1e4de961aee4dc786bf76c1d3" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Brookline PreK-8<br>500 WOODBOURNE AVE</div>`)[0];
+                popup_f0c7bb164be2a6c57b9d3e9f59d52096.setContent(html_c70396c1e4de961aee4dc786bf76c1d3);
+            
+        
+
+        marker_59f5881694d152a01ec6e2894232291b.bindPopup(popup_f0c7bb164be2a6c57b9d3e9f59d52096)
+        ;
+
+        
+    
+    
+            var marker_2c5baa21d1e28910747a609534010603 = L.marker(
+                [40.44445481, -79.9982823],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_a496242b8a01a1a6db1f127f14918a58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_2c5baa21d1e28910747a609534010603.setIcon(icon_a496242b8a01a1a6db1f127f14918a58);
+        
+    
+        var popup_fcdd4318376778182be4028963d0f359 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8e969092b2617aaa3471c1d9fc6088f = $(`<div id="html_d8e969092b2617aaa3471c1d9fc6088f" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> CAPA 6-12<br>111 9TH STREET</div>`)[0];
+                popup_fcdd4318376778182be4028963d0f359.setContent(html_d8e969092b2617aaa3471c1d9fc6088f);
+            
+        
+
+        marker_2c5baa21d1e28910747a609534010603.bindPopup(popup_fcdd4318376778182be4028963d0f359)
+        ;
+
+        
+    
+    
+            var marker_e279bcab6a02293c52baa8170c0aceab = L.marker(
+                [40.38781667, -80.00674367],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_23bc47c0d4981e261f124f3ccb0360ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_e279bcab6a02293c52baa8170c0aceab.setIcon(icon_23bc47c0d4981e261f124f3ccb0360ac);
+        
+    
+        var popup_f6001440742cd16e4670cc43376fac45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d98b71fa0828c0076b8cf625a3ad61c5 = $(`<div id="html_d98b71fa0828c0076b8cf625a3ad61c5" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Carmalt Early Childhood Center<br>1550 BREINING STREET</div>`)[0];
+                popup_f6001440742cd16e4670cc43376fac45.setContent(html_d98b71fa0828c0076b8cf625a3ad61c5);
+            
+        
+
+        marker_e279bcab6a02293c52baa8170c0aceab.bindPopup(popup_f6001440742cd16e4670cc43376fac45)
+        ;
+
+        
+    
+    
+            var marker_e1cfa7ebf5f1195fd3fdfde270c59688 = L.marker(
+                [40.38765323, -80.00680804],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_0b4d7df1493ce9242e35e9ab39dbada1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_e1cfa7ebf5f1195fd3fdfde270c59688.setIcon(icon_0b4d7df1493ce9242e35e9ab39dbada1);
+        
+    
+        var popup_71437aec6300208088a33a5bdfc03e77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b42e99f17dfa028fd12bbc9dcbbe0512 = $(`<div id="html_b42e99f17dfa028fd12bbc9dcbbe0512" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Carmalt PreK-8<br>1550 BREINING ST</div>`)[0];
+                popup_71437aec6300208088a33a5bdfc03e77.setContent(html_b42e99f17dfa028fd12bbc9dcbbe0512);
+            
+        
+
+        marker_e1cfa7ebf5f1195fd3fdfde270c59688.bindPopup(popup_71437aec6300208088a33a5bdfc03e77)
+        ;
+
+        
+    
+    
+            var marker_37deecb264895b870f8b04523ff049a5 = L.marker(
+                [40.44626122, -80.01868486],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_a7141ef99ed2d52a9dc0d5ac77cbee7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_37deecb264895b870f8b04523ff049a5.setIcon(icon_a7141ef99ed2d52a9dc0d5ac77cbee7a);
+        
+    
+        var popup_08eef9aafeb75592d3f117762def00ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_626bb4565947b19b3007f2db7211f0a2 = $(`<div id="html_626bb4565947b19b3007f2db7211f0a2" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Carnegie Science Center Early Childhood<br>1 Allegheny Ave</div>`)[0];
+                popup_08eef9aafeb75592d3f117762def00ef.setContent(html_626bb4565947b19b3007f2db7211f0a2);
+            
+        
+
+        marker_37deecb264895b870f8b04523ff049a5.bindPopup(popup_08eef9aafeb75592d3f117762def00ef)
+        ;
+
+        
+    
+    
+            var marker_23dd606dd936efcc7c3cde25ce975889 = L.marker(
+                [40.39087289, -79.98911619],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_287894301d0e304126af539e0df04284 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_23dd606dd936efcc7c3cde25ce975889.setIcon(icon_287894301d0e304126af539e0df04284);
+        
+    
+        var popup_165d054a97a9f7f4dfe5a41b148955b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94bac4b5c9b254ca40b3c18a8e04828d = $(`<div id="html_94bac4b5c9b254ca40b3c18a8e04828d" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Carrick High School<br>125 PARKFIELD ST</div>`)[0];
+                popup_165d054a97a9f7f4dfe5a41b148955b8.setContent(html_94bac4b5c9b254ca40b3c18a8e04828d);
+            
+        
+
+        marker_23dd606dd936efcc7c3cde25ce975889.bindPopup(popup_165d054a97a9f7f4dfe5a41b148955b8)
+        ;
+
+        
+    
+    
+            var marker_2128828d5bf4e60c16c839fbb0f75a9f = L.marker(
+                [40.45758331, -80.075932],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_11460659188a80ff3b8ec1710b102538 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_2128828d5bf4e60c16c839fbb0f75a9f.setIcon(icon_11460659188a80ff3b8ec1710b102538);
+        
+    
+        var popup_fc8980a901f4bd83bd5b840feb01558f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_089bcd29fab72b035d6d60b322435bab = $(`<div id="html_089bcd29fab72b035d6d60b322435bab" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Chartiers Early Childhood Center<br>3799 CHARTIERS AVENUE</div>`)[0];
+                popup_fc8980a901f4bd83bd5b840feb01558f.setContent(html_089bcd29fab72b035d6d60b322435bab);
+            
+        
+
+        marker_2128828d5bf4e60c16c839fbb0f75a9f.bindPopup(popup_fc8980a901f4bd83bd5b840feb01558f)
+        ;
+
+        
+    
+    
+            var marker_266e434d47f36c5dfce937aa65033576 = L.marker(
+                [40.45258848, -80.00696996],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_6d5729ba0dfd6a06b26cd18e21f6c841 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_266e434d47f36c5dfce937aa65033576.setIcon(icon_6d5729ba0dfd6a06b26cd18e21f6c841);
+        
+    
+        var popup_92d73a9b9d70fbe2c222ae7068f8e2bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c252b818ac228f98c8d721c29249dd3 = $(`<div id="html_4c252b818ac228f98c8d721c29249dd3" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Childrens Museum Early Childhood<br>10 CHILDRENS WAY</div>`)[0];
+                popup_92d73a9b9d70fbe2c222ae7068f8e2bc.setContent(html_4c252b818ac228f98c8d721c29249dd3);
+            
+        
+
+        marker_266e434d47f36c5dfce937aa65033576.bindPopup(popup_92d73a9b9d70fbe2c222ae7068f8e2bc)
+        ;
+
+        
+    
+    
+            var marker_49a247b7ada74df52752b37953fbf234 = L.marker(
+                [40.45057849, -80.01377047],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_82aa4cc47d7bb111e3b6162052dc5d60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_49a247b7ada74df52752b37953fbf234.setIcon(icon_82aa4cc47d7bb111e3b6162052dc5d60);
+        
+    
+        var popup_5be0c5ce652150d5ad7caefa891f95c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06e4c59cca8cde736b0ed2e076bf2bd1 = $(`<div id="html_06e4c59cca8cde736b0ed2e076bf2bd1" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> City Connections - CCAC<br>215 BYERS HALL 808 RIDGE AVENUE</div>`)[0];
+                popup_5be0c5ce652150d5ad7caefa891f95c9.setContent(html_06e4c59cca8cde736b0ed2e076bf2bd1);
+            
+        
+
+        marker_49a247b7ada74df52752b37953fbf234.bindPopup(popup_5be0c5ce652150d5ad7caefa891f95c9)
+        ;
+
+        
+    
+    
+            var marker_ddd2aa38cd4cbffd7c991b5538619ca5 = L.marker(
+                [40.42874354, -79.92050493],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_e693c098dfb52a3b37a496368e709940 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ddd2aa38cd4cbffd7c991b5538619ca5.setIcon(icon_e693c098dfb52a3b37a496368e709940);
+        
+    
+        var popup_9e3e64ab7e4b599b391bb874f1aa1686 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0388fe2849d2f9c55f10d366ade44306 = $(`<div id="html_0388fe2849d2f9c55f10d366ade44306" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> City Connections - East<br>6322 FORWARD AVENUE<br>Region: Squirrel Hill</div>`)[0];
+                popup_9e3e64ab7e4b599b391bb874f1aa1686.setContent(html_0388fe2849d2f9c55f10d366ade44306);
+            
+        
+
+        marker_ddd2aa38cd4cbffd7c991b5538619ca5.bindPopup(popup_9e3e64ab7e4b599b391bb874f1aa1686)
+        ;
+
+        
+    
+    
+            var marker_c1f81d427c658b389a54467a755e4ede = L.marker(
+                [40.47773973, -80.04006246],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_a9b2231b7e13ea0cae665ba117bec070 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_c1f81d427c658b389a54467a755e4ede.setIcon(icon_a9b2231b7e13ea0cae665ba117bec070);
+        
+    
+        var popup_4635b16a3774f8b40c79feeaa94b25db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa250cbce4d98888ccc2bc4f739ab364 = $(`<div id="html_aa250cbce4d98888ccc2bc4f739ab364" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> City Connections - North<br>3450 CALIFORNIA AVENUE</div>`)[0];
+                popup_4635b16a3774f8b40c79feeaa94b25db.setContent(html_aa250cbce4d98888ccc2bc4f739ab364);
+            
+        
+
+        marker_c1f81d427c658b389a54467a755e4ede.bindPopup(popup_4635b16a3774f8b40c79feeaa94b25db)
+        ;
+
+        
+    
+    
+            var marker_1c89d5fd5eacca4dfc15d43499a5cf10 = L.marker(
+                [40.4385514, -80.00142883],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_472c31afd94dded7e707ede00c4234ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_1c89d5fd5eacca4dfc15d43499a5cf10.setIcon(icon_472c31afd94dded7e707ede00c4234ac);
+        
+    
+        var popup_8a3a9cf56f04fd73de85140c769d41a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a704593afa4749e16016b0f2e7b558c = $(`<div id="html_9a704593afa4749e16016b0f2e7b558c" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> City Connections - Point Park<br>201 WOOD STREET</div>`)[0];
+                popup_8a3a9cf56f04fd73de85140c769d41a3.setContent(html_9a704593afa4749e16016b0f2e7b558c);
+            
+        
+
+        marker_1c89d5fd5eacca4dfc15d43499a5cf10.bindPopup(popup_8a3a9cf56f04fd73de85140c769d41a3)
+        ;
+
+        
+    
+    
+            var marker_4ba1da2622c8222a72ba2ce3082fd579 = L.marker(
+                [40.45397929, -80.05761487],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_b9ff7bd2fd37321c1a485f71a1bc083e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_4ba1da2622c8222a72ba2ce3082fd579.setIcon(icon_b9ff7bd2fd37321c1a485f71a1bc083e);
+        
+    
+        var popup_2459281825af94694e57d03e12eee0dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e62b646fb587890a478e3c7045a7424 = $(`<div id="html_7e62b646fb587890a478e3c7045a7424" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> City Connections - West<br>2945 CHARTIERS AVE</div>`)[0];
+                popup_2459281825af94694e57d03e12eee0dc.setContent(html_7e62b646fb587890a478e3c7045a7424);
+            
+        
+
+        marker_4ba1da2622c8222a72ba2ce3082fd579.bindPopup(popup_2459281825af94694e57d03e12eee0dc)
+        ;
+
+        
+    
+    
+            var marker_e8633497fe158d3b5c31a29892eaf7a2 = L.marker(
+                [40.44847384, -80.05052805],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_c4057e3e26d6fcbe3e7d1599a45c4da2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_e8633497fe158d3b5c31a29892eaf7a2.setIcon(icon_c4057e3e26d6fcbe3e7d1599a45c4da2);
+        
+    
+        var popup_8101b350c6d114b81be57621c5ca1b83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea08dfb99cbdf32047b5bad0d27065de = $(`<div id="html_ea08dfb99cbdf32047b5bad0d27065de" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Classical 6-8<br>1463 CHARTIERS AVE 3RD FLOOR</div>`)[0];
+                popup_8101b350c6d114b81be57621c5ca1b83.setContent(html_ea08dfb99cbdf32047b5bad0d27065de);
+            
+        
+
+        marker_e8633497fe158d3b5c31a29892eaf7a2.bindPopup(popup_8101b350c6d114b81be57621c5ca1b83)
+        ;
+
+        
+    
+    
+            var marker_0aa9172e757a4f8d33a714db8ec4f0eb = L.marker(
+                [40.44871878, -80.04877925],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_cfb51fc2b78e5729b0ba892f7e11989b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_0aa9172e757a4f8d33a714db8ec4f0eb.setIcon(icon_cfb51fc2b78e5729b0ba892f7e11989b);
+        
+    
+        var popup_80b03fe0fe73a683d01eed3c9a015947 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62f31c016bca09c45f16c765335a962e = $(`<div id="html_62f31c016bca09c45f16c765335a962e" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Classical Academy  Early Childhood Center<br>1463 Chartiers Avenue</div>`)[0];
+                popup_80b03fe0fe73a683d01eed3c9a015947.setContent(html_62f31c016bca09c45f16c765335a962e);
+            
+        
+
+        marker_0aa9172e757a4f8d33a714db8ec4f0eb.bindPopup(popup_80b03fe0fe73a683d01eed3c9a015947)
+        ;
+
+        
+    
+    
+            var marker_2874013415741e9230a7307d34ffdcd9 = L.marker(
+                [40.46174705, -80.01055406],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_892ec4d37e2106bccdf60e7b8cfc515f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_2874013415741e9230a7307d34ffdcd9.setIcon(icon_892ec4d37e2106bccdf60e7b8cfc515f);
+        
+    
+        var popup_0f32bb3eb99225aa1719b0f0d188bffd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b81e5dacbe388869f8e07501100e6dbe = $(`<div id="html_b81e5dacbe388869f8e07501100e6dbe" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Clayton Academy<br>1901 CLAYTON ST</div>`)[0];
+                popup_0f32bb3eb99225aa1719b0f0d188bffd.setContent(html_b81e5dacbe388869f8e07501100e6dbe);
+            
+        
+
+        marker_2874013415741e9230a7307d34ffdcd9.bindPopup(popup_0f32bb3eb99225aa1719b0f0d188bffd)
+        ;
+
+        
+    
+    
+            var marker_b02a1f476c4c9448dc334ef4f97d8bb6 = L.marker(
+                [40.43305686, -79.91536245],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_ae3ee3eb15a8f93906864346f4e82956 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b02a1f476c4c9448dc334ef4f97d8bb6.setIcon(icon_ae3ee3eb15a8f93906864346f4e82956);
+        
+    
+        var popup_7348c0d2f709eb9253361b6b910fad88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2dfec9c088355ac091fdbe30821d674 = $(`<div id="html_a2dfec9c088355ac091fdbe30821d674" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Colfax K-8<br>2332 BEECHWOOD BLVD<br>Region: Squirrel Hill</div>`)[0];
+                popup_7348c0d2f709eb9253361b6b910fad88.setContent(html_a2dfec9c088355ac091fdbe30821d674);
+            
+        
+
+        marker_b02a1f476c4c9448dc334ef4f97d8bb6.bindPopup(popup_7348c0d2f709eb9253361b6b910fad88)
+        ;
+
+        
+    
+    
+            var marker_7d74f35d91171aff734c3841cfe9537d = L.marker(
+                [40.38720378, -79.98441696],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_924bf095a878de0260a9ea4f4eb5f79d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_7d74f35d91171aff734c3841cfe9537d.setIcon(icon_924bf095a878de0260a9ea4f4eb5f79d);
+        
+    
+        var popup_81ca7175ca8d5b6b84a788c7fe6eb0dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5500a2d9d07088bf0fe88d604d66dfae = $(`<div id="html_5500a2d9d07088bf0fe88d604d66dfae" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Concord Early Childhood<br>2350 BROWNSVILLE ROAD</div>`)[0];
+                popup_81ca7175ca8d5b6b84a788c7fe6eb0dd.setContent(html_5500a2d9d07088bf0fe88d604d66dfae);
+            
+        
+
+        marker_7d74f35d91171aff734c3841cfe9537d.bindPopup(popup_81ca7175ca8d5b6b84a788c7fe6eb0dd)
+        ;
+
+        
+    
+    
+            var marker_7d1eeebd7f67d45c51b5e01a2682812f = L.marker(
+                [40.38739624, -79.98455732],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_5f138b6542a0ae53361a560a503b3876 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_7d1eeebd7f67d45c51b5e01a2682812f.setIcon(icon_5f138b6542a0ae53361a560a503b3876);
+        
+    
+        var popup_d694bee9d679a40482b73a8877d0a99c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56a11ad727986bfd659b26e9a17b8b7e = $(`<div id="html_56a11ad727986bfd659b26e9a17b8b7e" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Concord K-5<br>2350 BROWNSVILLE RD</div>`)[0];
+                popup_d694bee9d679a40482b73a8877d0a99c.setContent(html_56a11ad727986bfd659b26e9a17b8b7e);
+            
+        
+
+        marker_7d1eeebd7f67d45c51b5e01a2682812f.bindPopup(popup_d694bee9d679a40482b73a8877d0a99c)
+        ;
+
+        
+    
+    
+            var marker_7a70b44efb101c5a0e63ae6900a322e4 = L.marker(
+                [40.45169449, -80.02472689],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_8e6384587af04a22eb39d251c59832f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_7a70b44efb101c5a0e63ae6900a322e4.setIcon(icon_8e6384587af04a22eb39d251c59832f6);
+        
+    
+        var popup_578898dca30f162ba03e615cf5654106 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80a8fb4af01abb47b915ee61bf85e0c2 = $(`<div id="html_80a8fb4af01abb47b915ee61bf85e0c2" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Conroy<br>1398 PAGE ST</div>`)[0];
+                popup_578898dca30f162ba03e615cf5654106.setContent(html_80a8fb4af01abb47b915ee61bf85e0c2);
+            
+        
+
+        marker_7a70b44efb101c5a0e63ae6900a322e4.bindPopup(popup_578898dca30f162ba03e615cf5654106)
+        ;
+
+        
+    
+    
+            var marker_06e02fd648ad32df554b6072803b8033 = L.marker(
+                [40.45165794, -80.02502561],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_6e22b987e15bb9cdc0af17e755735ace = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_06e02fd648ad32df554b6072803b8033.setIcon(icon_6e22b987e15bb9cdc0af17e755735ace);
+        
+    
+        var popup_f07dd7e5120eee0d69c81efbc5d3a65c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b793350bcf8c7baf1aca3f2801ed6aa0 = $(`<div id="html_b793350bcf8c7baf1aca3f2801ed6aa0" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Conroy Early Childhood<br>1398 PAGE STREET</div>`)[0];
+                popup_f07dd7e5120eee0d69c81efbc5d3a65c.setContent(html_b793350bcf8c7baf1aca3f2801ed6aa0);
+            
+        
+
+        marker_06e02fd648ad32df554b6072803b8033.bindPopup(popup_f07dd7e5120eee0d69c81efbc5d3a65c)
+        ;
+
+        
+    
+    
+            var marker_3c2460b37d274211979dd8d9436966a3 = L.marker(
+                [40.45416241, -79.88118372],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_5311e5d650bca7b15ece1f8c1a1c8dbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_3c2460b37d274211979dd8d9436966a3.setIcon(icon_5311e5d650bca7b15ece1f8c1a1c8dbb);
+        
+    
+        var popup_8f481be5fe3a47a4b6dd51957286e823 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_085c8a51628045d0aa01fe986e4beebb = $(`<div id="html_085c8a51628045d0aa01fe986e4beebb" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Crescent Early Childhood<br>8080 BENNETT STREET</div>`)[0];
+                popup_8f481be5fe3a47a4b6dd51957286e823.setContent(html_085c8a51628045d0aa01fe986e4beebb);
+            
+        
+
+        marker_3c2460b37d274211979dd8d9436966a3.bindPopup(popup_8f481be5fe3a47a4b6dd51957286e823)
+        ;
+
+        
+    
+    
+            var marker_2c5dc2806b5417f6cd492d5846a16b18 = L.marker(
+                [40.46843317, -79.91759777],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_f1d1eb9dc1aee4255eda3ade4cd18a71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2c5dc2806b5417f6cd492d5846a16b18.setIcon(icon_f1d1eb9dc1aee4255eda3ade4cd18a71);
+        
+    
+        var popup_4e353ec812ae804534045301bd8e8f3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c6ad77a95ba28eebd164002a9cfda52 = $(`<div id="html_7c6ad77a95ba28eebd164002a9cfda52" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Dilworth Early Childhood<br>6200 STANTON AVENUE<br>Region: Shadyside</div>`)[0];
+                popup_4e353ec812ae804534045301bd8e8f3e.setContent(html_7c6ad77a95ba28eebd164002a9cfda52);
+            
+        
+
+        marker_2c5dc2806b5417f6cd492d5846a16b18.bindPopup(popup_4e353ec812ae804534045301bd8e8f3e)
+        ;
+
+        
+    
+    
+            var marker_d310eae0659baab508e30e30ea32a57b = L.marker(
+                [40.46819048, -79.91743588],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_0234e36706eb053f01c352c31df4b2cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d310eae0659baab508e30e30ea32a57b.setIcon(icon_0234e36706eb053f01c352c31df4b2cc);
+        
+    
+        var popup_67e8b62a6803c29b36566428a140d6f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_331f504df0495f1d0c4457672d9cec7a = $(`<div id="html_331f504df0495f1d0c4457672d9cec7a" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Dilworth PreK-5<br>6200 STANTON AVE<br>Region: Shadyside</div>`)[0];
+                popup_67e8b62a6803c29b36566428a140d6f1.setContent(html_331f504df0495f1d0c4457672d9cec7a);
+            
+        
+
+        marker_d310eae0659baab508e30e30ea32a57b.bindPopup(popup_67e8b62a6803c29b36566428a140d6f1)
+        ;
+
+        
+    
+    
+            var marker_06e95f8e9eff00562daf080ff511590f = L.marker(
+                [40.45249142, -79.89406529],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_36db27133df18cad5710690d1f3b825c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_06e95f8e9eff00562daf080ff511590f.setIcon(icon_36db27133df18cad5710690d1f3b825c);
+        
+    
+        var popup_20ac5350ce55db5139dfd0aab2031b51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_beca2aa9d0aa95124ebdb74a40ed6b57 = $(`<div id="html_beca2aa9d0aa95124ebdb74a40ed6b57" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Faison K-5<br>7430 TIOGA ST</div>`)[0];
+                popup_20ac5350ce55db5139dfd0aab2031b51.setContent(html_beca2aa9d0aa95124ebdb74a40ed6b57);
+            
+        
+
+        marker_06e95f8e9eff00562daf080ff511590f.bindPopup(popup_20ac5350ce55db5139dfd0aab2031b51)
+        ;
+
+        
+    
+    
+            var marker_4a2a321cb5947d130b9782258174d119 = L.marker(
+                [40.47484011, -79.92184639],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_b821d74f54db649d99169aa886512246 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a2a321cb5947d130b9782258174d119.setIcon(icon_b821d74f54db649d99169aa886512246);
+        
+    
+        var popup_8edb4869b9df3c33b6f24e1f9c7b1e90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d983008a1d12b1088d1bbc5d9b0a3d93 = $(`<div id="html_d983008a1d12b1088d1bbc5d9b0a3d93" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Fulton Early Childhood<br>5799 HAMPTON ST<br>Region: Shadyside</div>`)[0];
+                popup_8edb4869b9df3c33b6f24e1f9c7b1e90.setContent(html_d983008a1d12b1088d1bbc5d9b0a3d93);
+            
+        
+
+        marker_4a2a321cb5947d130b9782258174d119.bindPopup(popup_8edb4869b9df3c33b6f24e1f9c7b1e90)
+        ;
+
+        
+    
+    
+            var marker_03d31d301664833d059194bc9b1ea76b = L.marker(
+                [40.47494665, -79.92200951],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_b8d77ca1598189fb8b4db6f57e586fae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_03d31d301664833d059194bc9b1ea76b.setIcon(icon_b8d77ca1598189fb8b4db6f57e586fae);
+        
+    
+        var popup_3b258681eb52a44d66ebaceeaea96a59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5d10fcec5dbf8cb4c8f05f38533070c = $(`<div id="html_c5d10fcec5dbf8cb4c8f05f38533070c" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Fulton PreK-5<br>5799 HAMPTON ST<br>Region: Shadyside</div>`)[0];
+                popup_3b258681eb52a44d66ebaceeaea96a59.setContent(html_c5d10fcec5dbf8cb4c8f05f38533070c);
+            
+        
+
+        marker_03d31d301664833d059194bc9b1ea76b.bindPopup(popup_3b258681eb52a44d66ebaceeaea96a59)
+        ;
+
+        
+    
+    
+            var marker_5521bf7e52e509ad13fb6b6f1728e5ba = L.marker(
+                [40.44859775, -80.04968351],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_d7ad847a51a8dafe37286e04008c4a2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_5521bf7e52e509ad13fb6b6f1728e5ba.setIcon(icon_d7ad847a51a8dafe37286e04008c4a2c);
+        
+    
+        var popup_3d27aa865e1f599fba24e4508a619821 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c847b7d9140876e06ea45df7ba69d8f1 = $(`<div id="html_c847b7d9140876e06ea45df7ba69d8f1" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Gifted Center<br>1400 CRUCIBLE STREET</div>`)[0];
+                popup_3d27aa865e1f599fba24e4508a619821.setContent(html_c847b7d9140876e06ea45df7ba69d8f1);
+            
+        
+
+        marker_5521bf7e52e509ad13fb6b6f1728e5ba.bindPopup(popup_3d27aa865e1f599fba24e4508a619821)
+        ;
+
+        
+    
+    
+            var marker_426b9698484273d12a053f3b52c5caa2 = L.marker(
+                [40.42449442, -79.99250114],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_754668b86be3e07b0313ae312c01334c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_426b9698484273d12a053f3b52c5caa2.setIcon(icon_754668b86be3e07b0313ae312c01334c);
+        
+    
+        var popup_30fe570defb094281180b334d692dcdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e33fa03ca9c46c9a11e8a0394ad003c = $(`<div id="html_6e33fa03ca9c46c9a11e8a0394ad003c" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Grandview Early Childhood<br>845 MCLAIN STREET</div>`)[0];
+                popup_30fe570defb094281180b334d692dcdb.setContent(html_6e33fa03ca9c46c9a11e8a0394ad003c);
+            
+        
+
+        marker_426b9698484273d12a053f3b52c5caa2.bindPopup(popup_30fe570defb094281180b334d692dcdb)
+        ;
+
+        
+    
+    
+            var marker_681d28b56dfa912d713b333d3e70f848 = L.marker(
+                [40.42448625, -79.99309123],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_78b5f1c9666916e000be68299c708310 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_681d28b56dfa912d713b333d3e70f848.setIcon(icon_78b5f1c9666916e000be68299c708310);
+        
+    
+        var popup_1a90f3d2a63687b0bc1a76e1cb1dd18b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3115b4efe9886621efee02274a769ac = $(`<div id="html_b3115b4efe9886621efee02274a769ac" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Grandview PreK-5<br>845 MCLAIN ST</div>`)[0];
+                popup_1a90f3d2a63687b0bc1a76e1cb1dd18b.setContent(html_b3115b4efe9886621efee02274a769ac);
+            
+        
+
+        marker_681d28b56dfa912d713b333d3e70f848.bindPopup(popup_1a90f3d2a63687b0bc1a76e1cb1dd18b)
+        ;
+
+        
+    
+    
+            var marker_0f42f9e8ef8daf1cf2c2b9d7025016bc = L.marker(
+                [40.4265485, -79.94502068],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_0f82f759caaa3ce5a31f9d2c33cf3cca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0f42f9e8ef8daf1cf2c2b9d7025016bc.setIcon(icon_0f82f759caaa3ce5a31f9d2c33cf3cca);
+        
+    
+        var popup_ae20f5ed82642fc9b2730b866909fe54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a1dbd8c996fe041bba151fa5bda5c7c = $(`<div id="html_1a1dbd8c996fe041bba151fa5bda5c7c" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Greenfield Early Childhood<br>1 ALGER STREET<br>Region: Squirrel Hill</div>`)[0];
+                popup_ae20f5ed82642fc9b2730b866909fe54.setContent(html_1a1dbd8c996fe041bba151fa5bda5c7c);
+            
+        
+
+        marker_0f42f9e8ef8daf1cf2c2b9d7025016bc.bindPopup(popup_ae20f5ed82642fc9b2730b866909fe54)
+        ;
+
+        
+    
+    
+            var marker_2cb95a013a8a907d3d0dbc0928c8b88e = L.marker(
+                [40.42651759, -79.94467162],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_902802f72344391a67ec9573724d1716 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2cb95a013a8a907d3d0dbc0928c8b88e.setIcon(icon_902802f72344391a67ec9573724d1716);
+        
+    
+        var popup_6891c29b0957eef67ce8a099760f0a58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2843ef1038b051efb76ebeef8b6a51f3 = $(`<div id="html_2843ef1038b051efb76ebeef8b6a51f3" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Greenfield PreK-8<br>1 ALGER ST<br>Region: Squirrel Hill</div>`)[0];
+                popup_6891c29b0957eef67ce8a099760f0a58.setContent(html_2843ef1038b051efb76ebeef8b6a51f3);
+            
+        
+
+        marker_2cb95a013a8a907d3d0dbc0928c8b88e.bindPopup(popup_6891c29b0957eef67ce8a099760f0a58)
+        ;
+
+        
+    
+    
+            var marker_5512239273f0bc970126593df8da0ed2 = L.marker(
+                [40.45475208, -80.00443161],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_4d87271e143bf5b63a73b47244ad5b5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_5512239273f0bc970126593df8da0ed2.setIcon(icon_4d87271e143bf5b63a73b47244ad5b5b);
+        
+    
+        var popup_cb9293d27636556805c7dd851de1596f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b983c3353a9a46408294b55a49d4043e = $(`<div id="html_b983c3353a9a46408294b55a49d4043e" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> King Early Childhood Center<br>50 MONTGOMERY PLACE</div>`)[0];
+                popup_cb9293d27636556805c7dd851de1596f.setContent(html_b983c3353a9a46408294b55a49d4043e);
+            
+        
+
+        marker_5512239273f0bc970126593df8da0ed2.bindPopup(popup_cb9293d27636556805c7dd851de1596f)
+        ;
+
+        
+    
+    
+            var marker_e6a4757d46a920f3074ff250bb2fd849 = L.marker(
+                [40.45480328, -80.00496104],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_a1d8d6c52d8d1502c582db429152e2eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_e6a4757d46a920f3074ff250bb2fd849.setIcon(icon_a1d8d6c52d8d1502c582db429152e2eb);
+        
+    
+        var popup_bc839a690c1cc4f456c2774089de68df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6e4b317d38cdc698f2894db48322251 = $(`<div id="html_d6e4b317d38cdc698f2894db48322251" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> King PreK-8<br>50 MONTGOMERY PLACE</div>`)[0];
+                popup_bc839a690c1cc4f456c2774089de68df.setContent(html_d6e4b317d38cdc698f2894db48322251);
+            
+        
+
+        marker_e6a4757d46a920f3074ff250bb2fd849.bindPopup(popup_bc839a690c1cc4f456c2774089de68df)
+        ;
+
+        
+    
+    
+            var marker_c6790fcf759e186169cc174931179c6d = L.marker(
+                [40.45453189, -80.05466942],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_feb0ca709ca0c065f8e7a7fbee78885d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_c6790fcf759e186169cc174931179c6d.setIcon(icon_feb0ca709ca0c065f8e7a7fbee78885d);
+        
+    
+        var popup_b94af2207ce054747049ad2bab44c237 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_161f83b50c89f4e7776ab4b9686381b2 = $(`<div id="html_161f83b50c89f4e7776ab4b9686381b2" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Langley K-8<br>2940 SHERADEN BLVD</div>`)[0];
+                popup_b94af2207ce054747049ad2bab44c237.setContent(html_161f83b50c89f4e7776ab4b9686381b2);
+            
+        
+
+        marker_c6790fcf759e186169cc174931179c6d.bindPopup(popup_b94af2207ce054747049ad2bab44c237)
+        ;
+
+        
+    
+    
+            var marker_02a640aaf72e41f29b47e8c1740b41d8 = L.marker(
+                [40.45318028, -79.93347975],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_c2057a57f5bd38f2ac3e1d9fedc92090 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_02a640aaf72e41f29b47e8c1740b41d8.setIcon(icon_c2057a57f5bd38f2ac3e1d9fedc92090);
+        
+    
+        var popup_eca0d6b7bbd5b5b278c5cfcb41e0a714 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b4ec93ab92d66c2cf0757a90499fcde = $(`<div id="html_3b4ec93ab92d66c2cf0757a90499fcde" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Liberty K-5<br>601 FILBERT ST<br>Region: Shadyside</div>`)[0];
+                popup_eca0d6b7bbd5b5b278c5cfcb41e0a714.setContent(html_3b4ec93ab92d66c2cf0757a90499fcde);
+            
+        
+
+        marker_02a640aaf72e41f29b47e8c1740b41d8.bindPopup(popup_eca0d6b7bbd5b5b278c5cfcb41e0a714)
+        ;
+
+        
+    
+    
+            var marker_fb7d211fe0fd7aba86444a823282bd5c = L.marker(
+                [40.45989506, -79.91131067],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_1f1a7cb259c79c762dbc266a7c5e394d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fb7d211fe0fd7aba86444a823282bd5c.setIcon(icon_1f1a7cb259c79c762dbc266a7c5e394d);
+        
+    
+        var popup_ace40f38e1fa9371267ea60db8be7ed4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_833aead684a6766fd517b68fd29bb1ea = $(`<div id="html_833aead684a6766fd517b68fd29bb1ea" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Lincoln Early Childhood<br>328 LINCOLN AVENUE<br>Region: Shadyside</div>`)[0];
+                popup_ace40f38e1fa9371267ea60db8be7ed4.setContent(html_833aead684a6766fd517b68fd29bb1ea);
+            
+        
+
+        marker_fb7d211fe0fd7aba86444a823282bd5c.bindPopup(popup_ace40f38e1fa9371267ea60db8be7ed4)
+        ;
+
+        
+    
+    
+            var marker_3df83b9fcd068a7cbf1c3b80a3cf8eec = L.marker(
+                [40.46005305, -79.91161139],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_9d396b56b52794bfa0a3eadafd169a58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3df83b9fcd068a7cbf1c3b80a3cf8eec.setIcon(icon_9d396b56b52794bfa0a3eadafd169a58);
+        
+    
+        var popup_7cf2343df2e04d04d8fa322f6d22089a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e7bacd3959d5d322a70b36c3167dc97 = $(`<div id="html_6e7bacd3959d5d322a70b36c3167dc97" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Lincoln PreK-5<br>328 LINCOLN AVE<br>Region: Shadyside</div>`)[0];
+                popup_7cf2343df2e04d04d8fa322f6d22089a.setContent(html_6e7bacd3959d5d322a70b36c3167dc97);
+            
+        
+
+        marker_3df83b9fcd068a7cbf1c3b80a3cf8eec.bindPopup(popup_7cf2343df2e04d04d8fa322f6d22089a)
+        ;
+
+        
+    
+    
+            var marker_ffb6982b114c310215fd165e55f6b8f5 = L.marker(
+                [40.44550819, -79.9162456],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_a424e700d089b4cca476bbd660a8e528 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_ffb6982b114c310215fd165e55f6b8f5.setIcon(icon_a424e700d089b4cca476bbd660a8e528);
+        
+    
+        var popup_7563452eeb838dbc56e28573aef80737 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00a962f855322b6faa5a28a3a66631ca = $(`<div id="html_00a962f855322b6faa5a28a3a66631ca" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Linden K-5<br>725 S LINDEN AVE</div>`)[0];
+                popup_7563452eeb838dbc56e28573aef80737.setContent(html_00a962f855322b6faa5a28a3a66631ca);
+            
+        
+
+        marker_ffb6982b114c310215fd165e55f6b8f5.bindPopup(popup_7563452eeb838dbc56e28573aef80737)
+        ;
+
+        
+    
+    
+            var marker_d8bbd3f5c4e22bfb898ceb51ded50970 = L.marker(
+                [40.45627052, -80.02645254],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_63772a982144aab57cde4f7e7ea70f55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_d8bbd3f5c4e22bfb898ceb51ded50970.setIcon(icon_63772a982144aab57cde4f7e7ea70f55);
+        
+    
+        var popup_ff77237aa34a68dbd1550d46cae81fb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ebf0a6e5c188fa97dec32c7665896db = $(`<div id="html_8ebf0a6e5c188fa97dec32c7665896db" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Manchester Early Childhood<br>1612 MANHATTAN STREET</div>`)[0];
+                popup_ff77237aa34a68dbd1550d46cae81fb3.setContent(html_8ebf0a6e5c188fa97dec32c7665896db);
+            
+        
+
+        marker_d8bbd3f5c4e22bfb898ceb51ded50970.bindPopup(popup_ff77237aa34a68dbd1550d46cae81fb3)
+        ;
+
+        
+    
+    
+            var marker_d948fc29849e90559c19fb80db744c79 = L.marker(
+                [40.45644533, -80.0265177],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_4448206ec590b2a6597348c1cd221fec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_d948fc29849e90559c19fb80db744c79.setIcon(icon_4448206ec590b2a6597348c1cd221fec);
+        
+    
+        var popup_02ee3fb77f6ce350cf6c527ef3b987ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fb491b9bc4625fafbc092b8f497e79b = $(`<div id="html_7fb491b9bc4625fafbc092b8f497e79b" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Manchester PreK-8<br>1612 MANHATTAN ST</div>`)[0];
+                popup_02ee3fb77f6ce350cf6c527ef3b987ed.setContent(html_7fb491b9bc4625fafbc092b8f497e79b);
+            
+        
+
+        marker_d948fc29849e90559c19fb80db744c79.bindPopup(popup_02ee3fb77f6ce350cf6c527ef3b987ed)
+        ;
+
+        
+    
+    
+            var marker_5cc307ca64e0350ee5c3b591c75b9c21 = L.marker(
+                [40.44839149, -80.01999036],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_910b0cd1c8f58fdd7d729162d14b1e89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_5cc307ca64e0350ee5c3b591c75b9c21.setIcon(icon_910b0cd1c8f58fdd7d729162d14b1e89);
+        
+    
+        var popup_ee8b5da3c582352a94c5d3ec16445755 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fed17b65058d8738a88514656565319 = $(`<div id="html_1fed17b65058d8738a88514656565319" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Mercy Behavioral Health<br>1200 REEDSDALE ST</div>`)[0];
+                popup_ee8b5da3c582352a94c5d3ec16445755.setContent(html_1fed17b65058d8738a88514656565319);
+            
+        
+
+        marker_5cc307ca64e0350ee5c3b591c75b9c21.bindPopup(popup_ee8b5da3c582352a94c5d3ec16445755)
+        ;
+
+        
+    
+    
+            var marker_1edc46fe06153d13701e143829cb6a38 = L.marker(
+                [40.3700701, -79.91510868],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_19471b04dcd2e21208a8911cdf7a23e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1edc46fe06153d13701e143829cb6a38.setIcon(icon_19471b04dcd2e21208a8911cdf7a23e2);
+        
+    
+        var popup_022ebc7f7c6088a302b0bbcee2565611 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbc0129c8a3cbb295861b5a26c2dc6b7 = $(`<div id="html_cbc0129c8a3cbb295861b5a26c2dc6b7" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Mifflin Early Childhood<br>1290 MIFFLIN ROAD<br>Region: Squirrel Hill</div>`)[0];
+                popup_022ebc7f7c6088a302b0bbcee2565611.setContent(html_cbc0129c8a3cbb295861b5a26c2dc6b7);
+            
+        
+
+        marker_1edc46fe06153d13701e143829cb6a38.bindPopup(popup_022ebc7f7c6088a302b0bbcee2565611)
+        ;
+
+        
+    
+    
+            var marker_d3f0a5c6bd395709e5bfc388a0861547 = L.marker(
+                [40.3700701, -79.91473074],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_9ee2d9e8ff7878676c4d2db3086efb3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d3f0a5c6bd395709e5bfc388a0861547.setIcon(icon_9ee2d9e8ff7878676c4d2db3086efb3d);
+        
+    
+        var popup_03216ee60faf4ec87f8bec58183e8973 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f82e4bf851087b9a17797560704c8eee = $(`<div id="html_f82e4bf851087b9a17797560704c8eee" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Mifflin PreK-8<br>1290 MIFFLIN RD<br>Region: Squirrel Hill</div>`)[0];
+                popup_03216ee60faf4ec87f8bec58183e8973.setContent(html_f82e4bf851087b9a17797560704c8eee);
+            
+        
+
+        marker_d3f0a5c6bd395709e5bfc388a0861547.bindPopup(popup_03216ee60faf4ec87f8bec58183e8973)
+        ;
+
+        
+    
+    
+            var marker_b92f02481a2c2f371e4785529eea196b = L.marker(
+                [40.3699914, -79.98175621],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_c96f2aeed124bcc7908307e347344e6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_b92f02481a2c2f371e4785529eea196b.setIcon(icon_c96f2aeed124bcc7908307e347344e6e);
+        
+    
+        var popup_8848910af1be712492dcad7e0c2fdef8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_693bd9248e56a6041ca7245867b5bd39 = $(`<div id="html_693bd9248e56a6041ca7245867b5bd39" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Miller Early Childhood Center<br>2055 BEDFORD AVENUE</div>`)[0];
+                popup_8848910af1be712492dcad7e0c2fdef8.setContent(html_693bd9248e56a6041ca7245867b5bd39);
+            
+        
+
+        marker_b92f02481a2c2f371e4785529eea196b.bindPopup(popup_8848910af1be712492dcad7e0c2fdef8)
+        ;
+
+        
+    
+    
+            var marker_ea058bd5dd86aa65469c8b6b17f3d721 = L.marker(
+                [40.44732401, -79.98135003],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_42d7e40bc654b394fb79adbacecb74ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_ea058bd5dd86aa65469c8b6b17f3d721.setIcon(icon_42d7e40bc654b394fb79adbacecb74ba);
+        
+    
+        var popup_2bcafaac5829340be40c3470d6a77d49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b41d8480742a75a3ee4ce905c570fb69 = $(`<div id="html_b41d8480742a75a3ee4ce905c570fb69" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Miller PreK-5<br>2055 BEDFORD AVE</div>`)[0];
+                popup_2bcafaac5829340be40c3470d6a77d49.setContent(html_b41d8480742a75a3ee4ce905c570fb69);
+            
+        
+
+        marker_ea058bd5dd86aa65469c8b6b17f3d721.bindPopup(popup_2bcafaac5829340be40c3470d6a77d49)
+        ;
+
+        
+    
+    
+            var marker_30dc42b1e76f27b30aa254e9d44295db = L.marker(
+                [40.44980066, -79.96243131],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_e0d318489bef3ea1b0f6b48f10c683ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_30dc42b1e76f27b30aa254e9d44295db.setIcon(icon_e0d318489bef3ea1b0f6b48f10c683ed);
+        
+    
+        var popup_35a104a3332c06453512c159499def67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b76d472f2f689fd0402d2b7adc1306c = $(`<div id="html_3b76d472f2f689fd0402d2b7adc1306c" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Milliones 6-12<br>3117 CENTRE AVE</div>`)[0];
+                popup_35a104a3332c06453512c159499def67.setContent(html_3b76d472f2f689fd0402d2b7adc1306c);
+            
+        
+
+        marker_30dc42b1e76f27b30aa254e9d44295db.bindPopup(popup_35a104a3332c06453512c159499def67)
+        ;
+
+        
+    
+    
+            var marker_e7755974d2fc5346d5900157856c1715 = L.marker(
+                [40.4238206, -79.92540836],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_4ddeaf41adb24d72565a33158d53b190 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e7755974d2fc5346d5900157856c1715.setIcon(icon_4ddeaf41adb24d72565a33158d53b190);
+        
+    
+        var popup_fedcc734ba31ab5f14e4b62e2bbb1043 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87b9137e8835fd772372eb1834b75668 = $(`<div id="html_87b9137e8835fd772372eb1834b75668" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Minadeo Early Childhood Center<br>6502 LILAC STREET<br>Region: Squirrel Hill</div>`)[0];
+                popup_fedcc734ba31ab5f14e4b62e2bbb1043.setContent(html_87b9137e8835fd772372eb1834b75668);
+            
+        
+
+        marker_e7755974d2fc5346d5900157856c1715.bindPopup(popup_fedcc734ba31ab5f14e4b62e2bbb1043)
+        ;
+
+        
+    
+    
+            var marker_3ee97799062c49727d7fee7bf005fb60 = L.marker(
+                [40.42341858, -79.92571703],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_3c8d445830a47be97ce2ffbc6157923c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3ee97799062c49727d7fee7bf005fb60.setIcon(icon_3c8d445830a47be97ce2ffbc6157923c);
+        
+    
+        var popup_980fa38c11d8752b00c882416bd96805 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea2dacbced9a526586b79fe1c6148ca1 = $(`<div id="html_ea2dacbced9a526586b79fe1c6148ca1" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Minadeo PreK-5<br>6502 LILAC ST<br>Region: Squirrel Hill</div>`)[0];
+                popup_980fa38c11d8752b00c882416bd96805.setContent(html_ea2dacbced9a526586b79fe1c6148ca1);
+            
+        
+
+        marker_3ee97799062c49727d7fee7bf005fb60.bindPopup(popup_980fa38c11d8752b00c882416bd96805)
+        ;
+
+        
+    
+    
+            var marker_407cc5808aea71ffb5e3d62eb7d52a4d = L.marker(
+                [40.46226239, -79.93552778],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_df2ec943e4aa0c46ce48f27b84a35838 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_407cc5808aea71ffb5e3d62eb7d52a4d.setIcon(icon_df2ec943e4aa0c46ce48f27b84a35838);
+        
+    
+        var popup_12c5de8e327cdfa0f101cc2ee203ffe9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aabc0ece6c26d88d4c156ebd724c2be7 = $(`<div id="html_aabc0ece6c26d88d4c156ebd724c2be7" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Montessori Early Childhood<br>201 S GRAHAM STREET<br>Region: Shadyside</div>`)[0];
+                popup_12c5de8e327cdfa0f101cc2ee203ffe9.setContent(html_aabc0ece6c26d88d4c156ebd724c2be7);
+            
+        
+
+        marker_407cc5808aea71ffb5e3d62eb7d52a4d.bindPopup(popup_12c5de8e327cdfa0f101cc2ee203ffe9)
+        ;
+
+        
+    
+    
+            var marker_155d5e7a16d2ab53eefdcc1b65a8cb46 = L.marker(
+                [40.46226239, -79.93552778],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_6a819a53d7ff523a4cc63d61261f925d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_155d5e7a16d2ab53eefdcc1b65a8cb46.setIcon(icon_6a819a53d7ff523a4cc63d61261f925d);
+        
+    
+        var popup_d03197ea9c4d5ec64ac06a812301590c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2a1b4d689a69b741bdf26bd81d40919 = $(`<div id="html_a2a1b4d689a69b741bdf26bd81d40919" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Montessori PreK-5<br>201 S. GRAHAM STREET<br>Region: Shadyside</div>`)[0];
+                popup_d03197ea9c4d5ec64ac06a812301590c.setContent(html_a2a1b4d689a69b741bdf26bd81d40919);
+            
+        
+
+        marker_155d5e7a16d2ab53eefdcc1b65a8cb46.bindPopup(popup_d03197ea9c4d5ec64ac06a812301590c)
+        ;
+
+        
+    
+    
+            var marker_50d56f8685ad178260d0a1bcb96d9db1 = L.marker(
+                [40.4800142, -80.03976703],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_0143a56be3b44a53edf6e85ada1da79b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_50d56f8685ad178260d0a1bcb96d9db1.setIcon(icon_0143a56be3b44a53edf6e85ada1da79b);
+        
+    
+        var popup_2771221da9f267d82a87ef65599332f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91ee637e52ba4df0b1a05fb48879f517 = $(`<div id="html_91ee637e52ba4df0b1a05fb48879f517" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Morrow Early Childhood<br>1611 DAVIS AVENUE</div>`)[0];
+                popup_2771221da9f267d82a87ef65599332f8.setContent(html_91ee637e52ba4df0b1a05fb48879f517);
+            
+        
+
+        marker_50d56f8685ad178260d0a1bcb96d9db1.bindPopup(popup_2771221da9f267d82a87ef65599332f8)
+        ;
+
+        
+    
+    
+            var marker_53e1340f71950b1fcef7165af298f275 = L.marker(
+                [40.48015557, -80.03982504],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_cfb0c8ba26e2579b9daa2da562c3860b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_53e1340f71950b1fcef7165af298f275.setIcon(icon_cfb0c8ba26e2579b9daa2da562c3860b);
+        
+    
+        var popup_277ef5c9fbb5e14eefd81eadfe899857 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_863e6ee8aa499317d870899beadf902c = $(`<div id="html_863e6ee8aa499317d870899beadf902c" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Morrow PreK-8<br>1611 DAVIS AVE</div>`)[0];
+                popup_277ef5c9fbb5e14eefd81eadfe899857.setContent(html_863e6ee8aa499317d870899beadf902c);
+            
+        
+
+        marker_53e1340f71950b1fcef7165af298f275.bindPopup(popup_277ef5c9fbb5e14eefd81eadfe899857)
+        ;
+
+        
+    
+    
+            var marker_e48a8a073a79e28253152339bab951a1 = L.marker(
+                [40.46706262, -79.92259547],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_e6d054b55d340b8e5db7b0b3ca239dcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e48a8a073a79e28253152339bab951a1.setIcon(icon_e6d054b55d340b8e5db7b0b3ca239dcb);
+        
+    
+        var popup_ffd98bc2b631d986da74e5cac681c55b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_755d71fa6720e77a59ca8b3a02d60a7c = $(`<div id="html_755d71fa6720e77a59ca8b3a02d60a7c" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Obama 6-12<br>515 N. Highland Avenue<br>Region: Shadyside</div>`)[0];
+                popup_ffd98bc2b631d986da74e5cac681c55b.setContent(html_755d71fa6720e77a59ca8b3a02d60a7c);
+            
+        
+
+        marker_e48a8a073a79e28253152339bab951a1.bindPopup(popup_ffd98bc2b631d986da74e5cac681c55b)
+        ;
+
+        
+    
+    
+            var marker_b285b848eba1c0ac114cb02c52c51296 = L.marker(
+                [40.4668497, -79.92332697],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_5050ad9c424be7b5673614489f255d26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b285b848eba1c0ac114cb02c52c51296.setIcon(icon_5050ad9c424be7b5673614489f255d26);
+        
+    
+        var popup_374970f70a07dfda416fbb4e4095754d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ccbb16b76033d6dcc43b1851cd296c3 = $(`<div id="html_1ccbb16b76033d6dcc43b1851cd296c3" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Obama Early Childhood<br>515 N HIGHLAND AVENUE<br>Region: Shadyside</div>`)[0];
+                popup_374970f70a07dfda416fbb4e4095754d.setContent(html_1ccbb16b76033d6dcc43b1851cd296c3);
+            
+        
+
+        marker_b285b848eba1c0ac114cb02c52c51296.bindPopup(popup_374970f70a07dfda416fbb4e4095754d)
+        ;
+
+        
+    
+    
+            var marker_cfd5807d4f775e102fbf659c73d99bb6 = L.marker(
+                [40.46442541, -80.02449769],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_2070f95d0afab6c2c0e36ee0ca5fa346 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_cfd5807d4f775e102fbf659c73d99bb6.setIcon(icon_2070f95d0afab6c2c0e36ee0ca5fa346);
+        
+    
+        var popup_47ce841c1b9a7de9f6eed05e58d8a841 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d78bb5f1090e5dc339b017b249605f6f = $(`<div id="html_d78bb5f1090e5dc339b017b249605f6f" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Oliver Citywide Academy<br>2323 BRIGHTON ROAD</div>`)[0];
+                popup_47ce841c1b9a7de9f6eed05e58d8a841.setContent(html_d78bb5f1090e5dc339b017b249605f6f);
+            
+        
+
+        marker_cfd5807d4f775e102fbf659c73d99bb6.bindPopup(popup_47ce841c1b9a7de9f6eed05e58d8a841)
+        ;
+
+        
+    
+    
+            var marker_1ada9e227d3e4488c082c83c92ae8ed9 = L.marker(
+                [40.4280418, -79.98825622],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_5d1bd27ae7c73ce54c66fb0f1c12ef04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_1ada9e227d3e4488c082c83c92ae8ed9.setIcon(icon_5d1bd27ae7c73ce54c66fb0f1c12ef04);
+        
+    
+        var popup_32d258e5a1cf26d2ff561217b3d3e665 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e68c02f276d991f24c7de285d096e0e = $(`<div id="html_4e68c02f276d991f24c7de285d096e0e" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Online Academy<br>93 S. 10th Street</div>`)[0];
+                popup_32d258e5a1cf26d2ff561217b3d3e665.setContent(html_4e68c02f276d991f24c7de285d096e0e);
+            
+        
+
+        marker_1ada9e227d3e4488c082c83c92ae8ed9.bindPopup(popup_32d258e5a1cf26d2ff561217b3d3e665)
+        ;
+
+        
+    
+    
+            var marker_ff6f26ce873e933cbff1cb2c8f90e16d = L.marker(
+                [40.48916016, -80.01903308],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_284fed529cd5a84b813e3af09bd66542 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_ff6f26ce873e933cbff1cb2c8f90e16d.setIcon(icon_284fed529cd5a84b813e3af09bd66542);
+        
+    
+        var popup_cd56f45101bea5ea55cda56e03d46db7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57a9f91c8cc49c5602aa99be6f9106e4 = $(`<div id="html_57a9f91c8cc49c5602aa99be6f9106e4" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Perry High School<br>3875 PERRYSVILLE AVE</div>`)[0];
+                popup_cd56f45101bea5ea55cda56e03d46db7.setContent(html_57a9f91c8cc49c5602aa99be6f9106e4);
+            
+        
+
+        marker_ff6f26ce873e933cbff1cb2c8f90e16d.bindPopup(popup_cd56f45101bea5ea55cda56e03d46db7)
+        ;
+
+        
+    
+    
+            var marker_201b6b76636b3e8382ae6d179c798b2b = L.marker(
+                [40.42789199, -79.97832835],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_70fa4aac984d9b93123f3add7cafda12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_201b6b76636b3e8382ae6d179c798b2b.setIcon(icon_70fa4aac984d9b93123f3add7cafda12);
+        
+    
+        var popup_7aa90d022d5e656382a9e57552e0298d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19901774dd6cd0db69723d89c2ea4593 = $(`<div id="html_19901774dd6cd0db69723d89c2ea4593" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Phillips K-5<br>1901 SARAH ST</div>`)[0];
+                popup_7aa90d022d5e656382a9e57552e0298d.setContent(html_19901774dd6cd0db69723d89c2ea4593);
+            
+        
+
+        marker_201b6b76636b3e8382ae6d179c798b2b.bindPopup(popup_7aa90d022d5e656382a9e57552e0298d)
+        ;
+
+        
+    
+    
+            var marker_2f2a79a42d88cd54531f2c5cc116344a = L.marker(
+                [40.40334009, -80.00850882],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_f98ada420e6bc8acb83f564fdeb01891 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_2f2a79a42d88cd54531f2c5cc116344a.setIcon(icon_f98ada420e6bc8acb83f564fdeb01891);
+        
+    
+        var popup_1e0304e5a9efdfecbf40916ddef9da0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e03954c6d87c9fd92260fcc8f0eb8b5 = $(`<div id="html_9e03954c6d87c9fd92260fcc8f0eb8b5" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Pioneer<br>775 DUNSTER ST</div>`)[0];
+                popup_1e0304e5a9efdfecbf40916ddef9da0e.setContent(html_9e03954c6d87c9fd92260fcc8f0eb8b5);
+            
+        
+
+        marker_2f2a79a42d88cd54531f2c5cc116344a.bindPopup(popup_1e0304e5a9efdfecbf40916ddef9da0e)
+        ;
+
+        
+    
+    
+            var marker_400b73447281771e9b582e760b97941d = L.marker(
+                [40.39766309, -79.98909473],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_78521ee58c68c9a293718cf086f36572 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_400b73447281771e9b582e760b97941d.setIcon(icon_78521ee58c68c9a293718cf086f36572);
+        
+    
+        var popup_84caa8e185937232043535e338ba84ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_738fe9b74d8be3f9f53c21b08dd4a0c1 = $(`<div id="html_738fe9b74d8be3f9f53c21b08dd4a0c1" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Roosevelt Early Childhood<br>17 WEST CHERY HILL STREET</div>`)[0];
+                popup_84caa8e185937232043535e338ba84ed.setContent(html_738fe9b74d8be3f9f53c21b08dd4a0c1);
+            
+        
+
+        marker_400b73447281771e9b582e760b97941d.bindPopup(popup_84caa8e185937232043535e338ba84ed)
+        ;
+
+        
+    
+    
+            var marker_8f7e4ba7aa31d1704cb1d5f0e0fd67f8 = L.marker(
+                [40.39781256, -79.98915754],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_0e354b34dfa66e800965b46bd6b3b2a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_8f7e4ba7aa31d1704cb1d5f0e0fd67f8.setIcon(icon_0e354b34dfa66e800965b46bd6b3b2a0);
+        
+    
+        var popup_524819538ed1a87c57c2ccca935d77f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c63bcf0280afa68898852cb23281c3d5 = $(`<div id="html_c63bcf0280afa68898852cb23281c3d5" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Roosevelt PreK-5<br>17 W CHERRYHILL ST</div>`)[0];
+                popup_524819538ed1a87c57c2ccca935d77f4.setContent(html_c63bcf0280afa68898852cb23281c3d5);
+            
+        
+
+        marker_8f7e4ba7aa31d1704cb1d5f0e0fd67f8.bindPopup(popup_524819538ed1a87c57c2ccca935d77f4)
+        ;
+
+        
+    
+    
+            var marker_62789f356ca7155a24b9a1a1e267820a = L.marker(
+                [40.45650733, -79.9930525],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_e1c1f84ef1f4e5d9fb994d4ef3a26d27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_62789f356ca7155a24b9a1a1e267820a.setIcon(icon_e1c1f84ef1f4e5d9fb994d4ef3a26d27);
+        
+    
+        var popup_a803665b5147536786bc8181b9c17e16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5e61abf3815c800edb4cb1a4fc354e0 = $(`<div id="html_f5e61abf3815c800edb4cb1a4fc354e0" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Schiller 6-8<br>1018 PERALTA ST</div>`)[0];
+                popup_a803665b5147536786bc8181b9c17e16.setContent(html_f5e61abf3815c800edb4cb1a4fc354e0);
+            
+        
+
+        marker_62789f356ca7155a24b9a1a1e267820a.bindPopup(popup_a803665b5147536786bc8181b9c17e16)
+        ;
+
+        
+    
+    
+            var marker_c53dff02da9e6440287ead79baed4dcb = L.marker(
+                [40.44310953, -79.95804548],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_a0ce89130d957379265ed87d2f07bda8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c53dff02da9e6440287ead79baed4dcb.setIcon(icon_a0ce89130d957379265ed87d2f07bda8);
+        
+    
+        var popup_791395f928ba8767fdf58f772aa356e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d0ef0fd6aba4b3fa3969c72da921484 = $(`<div id="html_5d0ef0fd6aba4b3fa3969c72da921484" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Science & Technology Academy Early Childhood<br>107 THACKERAY STREET<br>Region: Oakland</div>`)[0];
+                popup_791395f928ba8767fdf58f772aa356e7.setContent(html_5d0ef0fd6aba4b3fa3969c72da921484);
+            
+        
+
+        marker_c53dff02da9e6440287ead79baed4dcb.bindPopup(popup_791395f928ba8767fdf58f772aa356e7)
+        ;
+
+        
+    
+    
+            var marker_469a4f9a755fc2341a56bf562a72c797 = L.marker(
+                [40.4435024, -79.95768167],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_977212dac6c221e287bfc9fb49b093b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_469a4f9a755fc2341a56bf562a72c797.setIcon(icon_977212dac6c221e287bfc9fb49b093b4);
+        
+    
+        var popup_22ee4cf1df95d890fe99c9b9b8eafee2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8440e5c81c147287d8def53440d7ccc = $(`<div id="html_f8440e5c81c147287d8def53440d7ccc" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Science And Technology Academy<br>107 THACKERAY ST<br>Region: Oakland</div>`)[0];
+                popup_22ee4cf1df95d890fe99c9b9b8eafee2.setContent(html_f8440e5c81c147287d8def53440d7ccc);
+            
+        
+
+        marker_469a4f9a755fc2341a56bf562a72c797.bindPopup(popup_22ee4cf1df95d890fe99c9b9b8eafee2)
+        ;
+
+        
+    
+    
+            var marker_e6280c9302ffeb4a2fcf19739a2d5509 = L.marker(
+                [40.44467812, -79.95066104],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_226db659852163533806ec915bbdb4ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e6280c9302ffeb4a2fcf19739a2d5509.setIcon(icon_226db659852163533806ec915bbdb4ff);
+        
+    
+        var popup_0d55d1d6b3876439d894230bf2db41ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_814007d6ee2d507d9eb57dc155ca8b3a = $(`<div id="html_814007d6ee2d507d9eb57dc155ca8b3a" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Secondary Summer School<br>341 S. BELLEFIELD AVE<br>Region: Oakland</div>`)[0];
+                popup_0d55d1d6b3876439d894230bf2db41ed.setContent(html_814007d6ee2d507d9eb57dc155ca8b3a);
+            
+        
+
+        marker_e6280c9302ffeb4a2fcf19739a2d5509.bindPopup(popup_0d55d1d6b3876439d894230bf2db41ed)
+        ;
+
+        
+    
+    
+            var marker_13226eb9ff1fe9bab55b92ede161fe76 = L.marker(
+                [40.40348038, -80.00918984],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_6036f5308c7ccbfa1d855f1715990d38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_13226eb9ff1fe9bab55b92ede161fe76.setIcon(icon_6036f5308c7ccbfa1d855f1715990d38);
+        
+    
+        var popup_f6e337f124aa8315c38a6b6299f6356e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66a2318f06273cd7d70859da30638341 = $(`<div id="html_66a2318f06273cd7d70859da30638341" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> South Brook 6-8<br>779 DUNSTER ST</div>`)[0];
+                popup_f6e337f124aa8315c38a6b6299f6356e.setContent(html_66a2318f06273cd7d70859da30638341);
+            
+        
+
+        marker_13226eb9ff1fe9bab55b92ede161fe76.bindPopup(popup_f6e337f124aa8315c38a6b6299f6356e)
+        ;
+
+        
+    
+    
+            var marker_e5b40dba54241ea85bac9f17f2795b14 = L.marker(
+                [40.41945957, -80.01818834],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_e74b10f358492851118ae7561f223d3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_e5b40dba54241ea85bac9f17f2795b14.setIcon(icon_e74b10f358492851118ae7561f223d3b);
+        
+    
+        var popup_5a6ecafb1e53f5d86d4b70270aeab72e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_034ffb9ced0feeb8f04d58b426642b7d = $(`<div id="html_034ffb9ced0feeb8f04d58b426642b7d" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> South Hills 6-8<br>595 CRANE AVE</div>`)[0];
+                popup_5a6ecafb1e53f5d86d4b70270aeab72e.setContent(html_034ffb9ced0feeb8f04d58b426642b7d);
+            
+        
+
+        marker_e5b40dba54241ea85bac9f17f2795b14.bindPopup(popup_5a6ecafb1e53f5d86d4b70270aeab72e)
+        ;
+
+        
+    
+    
+            var marker_2403cfed8a140d23272533bddcba96ee = L.marker(
+                [40.46434546, -79.98543606],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_d3aa00c1f2ef3a5da680660bfc34791e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_2403cfed8a140d23272533bddcba96ee.setIcon(icon_d3aa00c1f2ef3a5da680660bfc34791e);
+        
+    
+        var popup_3e6538bfa97012948ffaeb036abd218d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d991733500ac11e1b6ef89f156dde0ff = $(`<div id="html_d991733500ac11e1b6ef89f156dde0ff" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Spring Garden Early Childhood<br>1501 SPRING GARDEN AVENUE</div>`)[0];
+                popup_3e6538bfa97012948ffaeb036abd218d.setContent(html_d991733500ac11e1b6ef89f156dde0ff);
+            
+        
+
+        marker_2403cfed8a140d23272533bddcba96ee.bindPopup(popup_3e6538bfa97012948ffaeb036abd218d)
+        ;
+
+        
+    
+    
+            var marker_a7b6f96fa085e0cbf3cec09d34e87098 = L.marker(
+                [40.46554368, -79.98973702],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_10451d4ce6e6bb65dadd89ebcdf1d0f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_a7b6f96fa085e0cbf3cec09d34e87098.setIcon(icon_10451d4ce6e6bb65dadd89ebcdf1d0f6);
+        
+    
+        var popup_b82bf709711e1536c83616b347102029 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18f41de1a11e0554bb485183d62ab17a = $(`<div id="html_18f41de1a11e0554bb485183d62ab17a" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Spring Hill K-5<br>1351 DAMAS ST</div>`)[0];
+                popup_b82bf709711e1536c83616b347102029.setContent(html_18f41de1a11e0554bb485183d62ab17a);
+            
+        
+
+        marker_a7b6f96fa085e0cbf3cec09d34e87098.bindPopup(popup_b82bf709711e1536c83616b347102029)
+        ;
+
+        
+    
+    
+            var marker_7e125ca134e434050dadcd9844667b88 = L.marker(
+                [40.44659526, -79.90539295],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_4ecc2082823a12c8a1415e23a519e7a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_7e125ca134e434050dadcd9844667b88.setIcon(icon_4ecc2082823a12c8a1415e23a519e7a6);
+        
+    
+        var popup_ad126a8a655a38c2120ebff9f07246a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7856381deadbfcfc14f52ea8894ace0b = $(`<div id="html_7856381deadbfcfc14f52ea8894ace0b" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Sterrett 6-8<br>7100 REYNOLDS ST</div>`)[0];
+                popup_ad126a8a655a38c2120ebff9f07246a5.setContent(html_7856381deadbfcfc14f52ea8894ace0b);
+            
+        
+
+        marker_7e125ca134e434050dadcd9844667b88.bindPopup(popup_ad126a8a655a38c2120ebff9f07246a5)
+        ;
+
+        
+    
+    
+            var marker_e56136a38a03b872e505927a84c94ebb = L.marker(
+                [40.45635415, -79.88839181],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_149bf6de105a0cd32e0758dca05bc94f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_e56136a38a03b872e505927a84c94ebb.setIcon(icon_149bf6de105a0cd32e0758dca05bc94f);
+        
+    
+        var popup_d68a456895066aa3898556059416ab53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b6ac01eaf0fdda9cda76172ec67fbc7 = $(`<div id="html_2b6ac01eaf0fdda9cda76172ec67fbc7" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Student Achievement Center<br>925 BRUSHTON AVENUE</div>`)[0];
+                popup_d68a456895066aa3898556059416ab53.setContent(html_2b6ac01eaf0fdda9cda76172ec67fbc7);
+            
+        
+
+        marker_e56136a38a03b872e505927a84c94ebb.bindPopup(popup_d68a456895066aa3898556059416ab53)
+        ;
+
+        
+    
+    
+            var marker_58369ec3fb1f2a5c990526af3bc567ad = L.marker(
+                [40.48131174, -79.93351936],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_4cc945b79013b9c2576040f7253e1590 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_58369ec3fb1f2a5c990526af3bc567ad.setIcon(icon_4cc945b79013b9c2576040f7253e1590);
+        
+    
+        var popup_30b2f7bc40573b11b29d5931b355a6ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_635c46f8cafd0e70a36c1d9768d589d1 = $(`<div id="html_635c46f8cafd0e70a36c1d9768d589d1" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Sunnyside Early Childhood<br>4801 STANTON AVENUE</div>`)[0];
+                popup_30b2f7bc40573b11b29d5931b355a6ec.setContent(html_635c46f8cafd0e70a36c1d9768d589d1);
+            
+        
+
+        marker_58369ec3fb1f2a5c990526af3bc567ad.bindPopup(popup_30b2f7bc40573b11b29d5931b355a6ec)
+        ;
+
+        
+    
+    
+            var marker_7b91e9b95b87d43f1677c4521971ba1e = L.marker(
+                [40.48156439, -79.93350901],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_b760f965a5ceb40905a0cef6cae79ea1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_7b91e9b95b87d43f1677c4521971ba1e.setIcon(icon_b760f965a5ceb40905a0cef6cae79ea1);
+        
+    
+        var popup_688957136fd89e75c13f07b5877b2284 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc43eb8f750e92fd41008fa96b1de389 = $(`<div id="html_bc43eb8f750e92fd41008fa96b1de389" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Sunnyside PreK-8<br>4801 STANTON AVE</div>`)[0];
+                popup_688957136fd89e75c13f07b5877b2284.setContent(html_bc43eb8f750e92fd41008fa96b1de389);
+            
+        
+
+        marker_7b91e9b95b87d43f1677c4521971ba1e.bindPopup(popup_688957136fd89e75c13f07b5877b2284)
+        ;
+
+        
+    
+    
+            var marker_28b7a7190df510447c906f31a11030d4 = L.marker(
+                [40.44967402, -79.96203661],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_ffdbc449fb1d39659109e9c7c4d35a11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_28b7a7190df510447c906f31a11030d4.setIcon(icon_ffdbc449fb1d39659109e9c7c4d35a11);
+        
+    
+        var popup_e89a0a612bd0c81fa3c440c4c2d9d1db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd3efe0d20cc4bae9d2c67315dbae0f7 = $(`<div id="html_cd3efe0d20cc4bae9d2c67315dbae0f7" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> University Prep Early Childhood<br>3117 CENTRE AVENUE</div>`)[0];
+                popup_e89a0a612bd0c81fa3c440c4c2d9d1db.setContent(html_cd3efe0d20cc4bae9d2c67315dbae0f7);
+            
+        
+
+        marker_28b7a7190df510447c906f31a11030d4.bindPopup(popup_e89a0a612bd0c81fa3c440c4c2d9d1db)
+        ;
+
+        
+    
+    
+            var marker_8eb10cbf721f2e3e21e4ae9184030d6d = L.marker(
+                [40.44430164, -79.97413874],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_a5f2f0f1e24c5341db68762094991efa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_8eb10cbf721f2e3e21e4ae9184030d6d.setIcon(icon_a5f2f0f1e24c5341db68762094991efa);
+        
+    
+        var popup_f2e8a5a7de6df0465079fb06907c2d17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43a9e6c45c6b8a2a38f3026725c55d9a = $(`<div id="html_43a9e6c45c6b8a2a38f3026725c55d9a" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Weil Early Childhood Center<br>2250 CENTRE AVENUE</div>`)[0];
+                popup_f2e8a5a7de6df0465079fb06907c2d17.setContent(html_43a9e6c45c6b8a2a38f3026725c55d9a);
+            
+        
+
+        marker_8eb10cbf721f2e3e21e4ae9184030d6d.bindPopup(popup_f2e8a5a7de6df0465079fb06907c2d17)
+        ;
+
+        
+    
+    
+            var marker_60d1b00020ddef76297c62e5c6d2faa5 = L.marker(
+                [40.44453018, -79.97399512],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_c728fde4ea1c1dc4b7b3b7fbe989ee50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_60d1b00020ddef76297c62e5c6d2faa5.setIcon(icon_c728fde4ea1c1dc4b7b3b7fbe989ee50);
+        
+    
+        var popup_8e6eb861f6d1d8b17a276bb73d18eb94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a36b8c992f778cbd61533cdff5c2fea = $(`<div id="html_4a36b8c992f778cbd61533cdff5c2fea" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Weil PreK-5<br>2250 CENTRE AVE</div>`)[0];
+                popup_8e6eb861f6d1d8b17a276bb73d18eb94.setContent(html_4a36b8c992f778cbd61533cdff5c2fea);
+            
+        
+
+        marker_60d1b00020ddef76297c62e5c6d2faa5.bindPopup(popup_8e6eb861f6d1d8b17a276bb73d18eb94)
+        ;
+
+        
+    
+    
+            var marker_a0f13885e15a943c179104733a1a48a1 = L.marker(
+                [40.40304737, -80.00994086],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_bc50fd47f44883c51ba9add46ed48417 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_a0f13885e15a943c179104733a1a48a1.setIcon(icon_bc50fd47f44883c51ba9add46ed48417);
+        
+    
+        var popup_fe335ecca61cacc965fa19a9afe1112d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c62724e49b8cb937083e98de5211fda6 = $(`<div id="html_c62724e49b8cb937083e98de5211fda6" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> West Liberty PreK-5<br>785 DUNSTER AVE</div>`)[0];
+                popup_fe335ecca61cacc965fa19a9afe1112d.setContent(html_c62724e49b8cb937083e98de5211fda6);
+            
+        
+
+        marker_a0f13885e15a943c179104733a1a48a1.bindPopup(popup_fe335ecca61cacc965fa19a9afe1112d)
+        ;
+
+        
+    
+    
+            var marker_41c20c47af692950991d442e69c8fd2f = L.marker(
+                [40.46099661, -79.90116984],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_3f4ce02a2f48a2d2fc64c1d69883a278 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_41c20c47af692950991d442e69c8fd2f.setIcon(icon_3f4ce02a2f48a2d2fc64c1d69883a278);
+        
+    
+        var popup_b8e910fb61cb1bf7ffd02517b37fc5a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93633d40ffd63fa23b91f7f7aca7767d = $(`<div id="html_93633d40ffd63fa23b91f7f7aca7767d" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Westinghouse Academy 6-12<br>1101 NORTH MURTLAND AVENUE</div>`)[0];
+                popup_b8e910fb61cb1bf7ffd02517b37fc5a6.setContent(html_93633d40ffd63fa23b91f7f7aca7767d);
+            
+        
+
+        marker_41c20c47af692950991d442e69c8fd2f.bindPopup(popup_b8e910fb61cb1bf7ffd02517b37fc5a6)
+        ;
+
+        
+    
+    
+            var marker_b145b5b646c50d4ba9023f6d41b56750 = L.marker(
+                [40.46080932, -79.90098953],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_d542ea5676da093d14800a59ab35c690 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_b145b5b646c50d4ba9023f6d41b56750.setIcon(icon_d542ea5676da093d14800a59ab35c690);
+        
+    
+        var popup_c33f908a922a0449670adaefadabc272 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8981e2a85bd7129e9b79f45e5de0660 = $(`<div id="html_f8981e2a85bd7129e9b79f45e5de0660" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Westinghouse Early Headstart<br>1101 N. MURTLAND AVENUE</div>`)[0];
+                popup_c33f908a922a0449670adaefadabc272.setContent(html_f8981e2a85bd7129e9b79f45e5de0660);
+            
+        
+
+        marker_b145b5b646c50d4ba9023f6d41b56750.bindPopup(popup_c33f908a922a0449670adaefadabc272)
+        ;
+
+        
+    
+    
+            var marker_254c4c41e79dd9241b8a37374f627664 = L.marker(
+                [40.43158747, -80.05087137],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_450e929eeca8141b37b0077b06fea837 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_254c4c41e79dd9241b8a37374f627664.setIcon(icon_450e929eeca8141b37b0077b06fea837);
+        
+    
+        var popup_709f2c815fe48a049cf1ced0668a1c21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e27e77fa672e2b58d678d6f091e29cd = $(`<div id="html_4e27e77fa672e2b58d678d6f091e29cd" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Westwood Early Childhood<br>508 Shadyhill Road</div>`)[0];
+                popup_709f2c815fe48a049cf1ced0668a1c21.setContent(html_4e27e77fa672e2b58d678d6f091e29cd);
+            
+        
+
+        marker_254c4c41e79dd9241b8a37374f627664.bindPopup(popup_709f2c815fe48a049cf1ced0668a1c21)
+        ;
+
+        
+    
+    
+            var marker_b1eb5c89425644475ff524b9cb14c27c = L.marker(
+                [40.4318978, -80.05117178],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_1c12de1b31c95be9ced3f2bf40b58ca8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_b1eb5c89425644475ff524b9cb14c27c.setIcon(icon_1c12de1b31c95be9ced3f2bf40b58ca8);
+        
+    
+        var popup_1ed7e626d32e9c8731d5226400094e5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_715fbc4a6d92834cb4814ce0c4f72f6c = $(`<div id="html_715fbc4a6d92834cb4814ce0c4f72f6c" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Westwood K-5<br>508 SHADYHILL RD</div>`)[0];
+                popup_1ed7e626d32e9c8731d5226400094e5b.setContent(html_715fbc4a6d92834cb4814ce0c4f72f6c);
+            
+        
+
+        marker_b1eb5c89425644475ff524b9cb14c27c.bindPopup(popup_1ed7e626d32e9c8731d5226400094e5b)
+        ;
+
+        
+    
+    
+            var marker_539900aa01e3de3244110b695c173772 = L.marker(
+                [40.43585221, -80.01895544],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_abe125dc8b8e4d742fdba89d96400393 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_539900aa01e3de3244110b695c173772.setIcon(icon_abe125dc8b8e4d742fdba89d96400393);
+        
+    
+        var popup_8d5991d9a0949ad6e031229012d50ce1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c196624c1fc314acd70e059c4009b10c = $(`<div id="html_c196624c1fc314acd70e059c4009b10c" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Whittier K-5<br>150 MERIDAN ST</div>`)[0];
+                popup_8d5991d9a0949ad6e031229012d50ce1.setContent(html_c196624c1fc314acd70e059c4009b10c);
+            
+        
+
+        marker_539900aa01e3de3244110b695c173772.bindPopup(popup_8d5991d9a0949ad6e031229012d50ce1)
+        ;
+
+        
+    
+    
+            var marker_4039cf88cfc6f4890cb6b2d22840c4d8 = L.marker(
+                [40.46322554, -79.95710135],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_de8d7c826161f41979794f37970ac76c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_4039cf88cfc6f4890cb6b2d22840c4d8.setIcon(icon_de8d7c826161f41979794f37970ac76c);
+        
+    
+        var popup_6c3578d6730296eae80af67d742c2b59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5c4b11b21824d74ffc1f0c52dde0f24 = $(`<div id="html_e5c4b11b21824d74ffc1f0c52dde0f24" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Woolslair Early Childhood<br>501 40th Street</div>`)[0];
+                popup_6c3578d6730296eae80af67d742c2b59.setContent(html_e5c4b11b21824d74ffc1f0c52dde0f24);
+            
+        
+
+        marker_4039cf88cfc6f4890cb6b2d22840c4d8.bindPopup(popup_6c3578d6730296eae80af67d742c2b59)
+        ;
+
+        
+    
+    
+            var marker_121ebd2a1df066419f2c360d61ed1b1d = L.marker(
+                [40.46342609, -79.95720418],
+                {}
+            ).addTo(map_e906aa1c59631408308f77f3aafdbce3);
+        
+    
+            var icon_9ecdcf59f2810f8da01c3e2e7200e160 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_121ebd2a1df066419f2c360d61ed1b1d.setIcon(icon_9ecdcf59f2810f8da01c3e2e7200e160);
+        
+    
+        var popup_31dea4f9528a174fd2899aca659da9a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9d2ffd34a10eb87c68efbfed19cdf00 = $(`<div id="html_f9d2ffd34a10eb87c68efbfed19cdf00" style="width: 100.0%; height: 100.0%;"><b>Public School:</b> Woolslair PreK-5<br>501 - 40TH ST</div>`)[0];
+                popup_31dea4f9528a174fd2899aca659da9a2.setContent(html_f9d2ffd34a10eb87c68efbfed19cdf00);
+            
+        
+
+        marker_121ebd2a1df066419f2c360d61ed1b1d.bindPopup(popup_31dea4f9528a174fd2899aca659da9a2)
+        ;
+
+        
+    
+</script>
+</html>
